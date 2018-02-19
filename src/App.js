@@ -4,9 +4,9 @@ import { Provider } from 'react-redux';
 import logo from './logo.svg';
 import './App.css';
 import AppContainer from './containers/app-container.js';
-import LoginContainer from './containers/login-container.js';
-import FarmSummaryContainer from './containers/farmSummary-container.js';
-import FarmDetailContainer from './containers/farmDetail-container.js';
+import Home from './components/home.js';
+import About from './components/about.js.js';
+import Terms from './components/terms.js.js';
 import { store } from './init-store.js';
 
 const Routes = () => {
@@ -14,7 +14,7 @@ const Routes = () => {
   return (
     <Route path='/' component={ AppContainer }>
 
-        <Route component={ LoginContainer } />
+        <Route component={ Home } />
 
         <Route path='/farmSummary'
             component={ FarmSummaryContainer }
