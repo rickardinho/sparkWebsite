@@ -14,7 +14,8 @@ const Routes = () => {
   return (
     <Route path='/' component={ AppContainer }>
 
-        <Route component={ Home } />
+        <Route path='/home'
+            component={ Home } />
 
         <Route path='/about'
             component={ About }

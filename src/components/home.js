@@ -3,11 +3,11 @@ import { render } from 'react-dom';
 
 const Home = () => (
   <div>
-    <div className="App">
-      <div className="App-header">
+    <div className="Home">
+      <div className="Home-header">
         <h2>Welcome to Spark Website</h2>
       </div>
-      <p className="App-intro">
+      <p className="Home-intro">
         To get started, blah blah.
       </p>
     </div>

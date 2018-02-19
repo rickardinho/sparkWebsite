@@ -3,11 +3,11 @@ import { render } from 'react-dom';
 
 const About = () => (
   <div>
-    <div className="App">
-      <div className="App-header">
-        <h2>About</h2>
+    <div className="About">
+      <div className="About-header">
+        <h2>About Us</h2>
       </div>
-      
+
     </div>
   </div>
 );
