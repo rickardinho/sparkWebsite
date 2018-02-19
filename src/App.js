@@ -5,8 +5,8 @@ import logo from './logo.svg';
 import './App.css';
 import AppContainer from './containers/app-container.js';
 import Home from './components/home.js';
-import About from './components/about.js.js';
-import Terms from './components/terms.js.js';
+import About from './components/about.js';
+import Terms from './components/terms.js';
 import { store } from './init-store.js';
 
 const Routes = () => {
