@@ -1,44 +1,53 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import BurgerMenu from './burger.js';
+import { NavButton } from './../../styles/styles'
 import classnames from 'classnames';
 
-const Navbar = ({ currentLocation }) => {
+const Navbar = () => {
 
-    if (process.env.DEVELOPMENT) {
-        currentLocation = '/about';
-    }
+    let navbarClasses = classnames("navbar", {});
 
-    let navbarClasses = classnames("navbar", {
-        "display-none": currentLocation === "/"
-    });
+    let homeClasses = classnames("nav-button", {});
 
-    let aboutClasses = classnames("nav-button", {
-        "selected": currentLocation.indexOf("/about") > -1
-    });
+    let aboutClasses = classnames("nav-button", {});
 
-    let helpClasses = classnames("nav-button", {
-        "selected": currentLocation.indexOf("/help") > -1
-    });
-    
-    let comtactClasses = classnames("nav-button", {
-        "selected": currentLocation.indexOf("/contact") > -1
-    });
+    let helpClasses = classnames("nav-button", {});
+
+    let contactClasses = classnames("nav-button", {});
 
 
     return (
         <div className={ navbarClasses }>
+
+            <BurgerMenu />
+
             <Link className={ homeClasses } to="home">
-                <div >
+                <NavButton>
                     <i className="fa fa-camera nav-icon "></i>
                     <label className="menu-label">Home</label>
-                </div>
+                </NavButton>
             </Link>
 
             <Link className={ aboutClasses } to="about">
-                <div>
+                <NavButton>
                     <i className="fa fa-calendar nav-icon"></i>
                     <label className="menu-label">About</label>
-                </div>
+                </NavButton>
+            </Link>
+
+            <Link className={ helpClasses } to="help">
+                <NavButton>
+                    <i className="fa fa-calendar nav-icon"></i>
+                    <label className="menu-label">Help</label>
+                </NavButton>
+            </Link>
+
+            <Link className={ contactClasses } to="contact">
+                <NavButton>
+                    <i className="fa fa-calendar nav-icon"></i>
+                    <label className="menu-label">Contact</label>
+                </NavButton>
             </Link>
 
         </div>
