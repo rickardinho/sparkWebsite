@@ -16,12 +16,12 @@ const Routes = () => {
 
         <Route component={ Home } />
 
-        <Route path='/farmSummary'
-            component={ FarmSummaryContainer }
+        <Route path='/about'
+            component={ About }
         />
 
-        <Route path='/farmDetails/:farmID'
-            component={ FarmDetailContainer }
+        <Route path='/terms'
+            component={ Terms }
         />
 
     </Route>
