@@ -23,11 +23,25 @@ const Navbar = () => {
                     <label>About</label>
                 </NavButton>
             </Link>
+        
+            <Link to="Download">
+                <NavButton>
+
+                    <label>Download</label>
+                </NavButton>
+            </Link>
 
             <Link to="help">
                 <NavButton>
 
                     <label>Help</label>
+                </NavButton>
+            </Link>
+        
+            <Link to="press">
+                <NavButton>
+
+                    <label>Press</label>
                 </NavButton>
             </Link>
 
