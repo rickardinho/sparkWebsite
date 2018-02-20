@@ -9,7 +9,9 @@ class BurgerMenu extends Component {
       <Menu styles={ BurgerStyles } id={ "sidebar" } className={ "burger-menu" } right>
         <a id="home" className="menu-item" href="/">Home</a>
         <a id="about" className="menu-item" href="/about">About</a>
+        <a id="download" className="menu-item" href="/download">Download</a>
         <a id="help" className="menu-item" href="/help">Help</a>
+        <a id="press" className="menu-item" href="/press">Press</a>
         <a id="contact" className="menu-item" href="/contact">Contact Us</a>
       </Menu>
     );
