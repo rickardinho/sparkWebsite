@@ -10,6 +10,7 @@ import Help from './components/help.js';
 import Press from './components/press.js';
 import Contact from './components/contact.js';
 import Terms from './components/terms.js';
+import Privacy from './components/privacy.js';
 import Navbar from './components/general/navbar.js';
 import { store } from './init-store.js';
 
@@ -27,6 +28,7 @@ const Routes = () => {
         <Route path='/press' component={ Press } />
         <Route path='/contact' component={ Contact } />
         <Route path='/terms' component={ Terms } />
+        <Route path='/privacy' component={ Privacy } />
       </div>
 
     </Router>
