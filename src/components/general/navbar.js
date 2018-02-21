@@ -3,12 +3,16 @@ import { Link } from 'react-router-dom';
 import BurgerMenu from './burger.js';
 import { NavButton, NavbarWrapper } from './../../styles/styles';
 
+import sparkIcon from './images/spark-with-icon.png';
+
 const Navbar = () => {
 
     return (
         <NavbarWrapper>
 
             <BurgerMenu />
+
+            <img src={sparkIcon} alt="SparkIcon" width="336" height="83"/>
 
             <Link to="home">
                 <NavButton>
@@ -23,7 +27,7 @@ const Navbar = () => {
                     <label>About</label>
                 </NavButton>
             </Link>
-        
+
             <Link to="Download">
                 <NavButton>
 
@@ -37,7 +41,7 @@ const Navbar = () => {
                     <label>Help</label>
                 </NavButton>
             </Link>
-        
+
             <Link to="press">
                 <NavButton>
 
