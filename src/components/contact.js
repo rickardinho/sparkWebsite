@@ -14,35 +14,11 @@ const Contact = () => (
 
 export default Contact;
 
-// <title>Contact Us</title>
-// <!-- CSS -->
-// <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=125060978"/>
-// <link rel="stylesheet" type="text/css" href="css/master_c-master.css?crc=3998969512"/>
-// <link rel="stylesheet" type="text/css" href="css/contact-us.css?crc=38196410" id="pagesheet"/>
-// <!-- IE-only CSS -->
-// <!--[if lt IE 9]>
-// <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_c-master.css?crc=4099261515"/>
-// <link rel="stylesheet" type="text/css" href="css/nomq_contact-us.css?crc=423247452" id="nomq_pagesheet"/>
-// <![endif]-->
-//  </head>
-// <body>
-//
-// <div class="breakpoint active" id="bp_infinity" data-min-width="1025"><!-- responsive breakpoint node -->
-//  <div class="clearfix borderbox" id="page"><!-- group -->
-//   <div class="clearfix grpelem" id="pu51944"><!-- column -->
-//    <div class="clip_frame colelem" id="u51944"><!-- image -->
-//     <img class="block temp_no_img_src" id="u51944_img" data-orig-src="images/spark_with_icon.png?crc=62710494" alt="" width="336" height="83" src="images/blank.gif?crc=4208392903"/>
-//    </div>
-//    <!-- m_editable region-id="editable-static-tag-U46724-BP_infinity" template="contact-us.html" data-type="html" data-ice-options="disableImageResize,link" -->
-//    <div class="clearfix colelem shared_content" id="u46724-21" data-muse-uid="U46724" data-muse-type="txt_frame" data-content-guid="u46724-21_content"><!-- content -->
-//     <h4 class="titles shared_content" id="u46724-2" data-content-guid="u46724-2_content">Keep in touch!</h4>
-//     <p id="u46724-3" class="shared_content" data-content-guid="u46724-3_content">&nbsp;</p>
-//     <p class="Paragraph-text shared_content" id="u46724-5" data-content-guid="u46724-5_content">If you’d like to know more about Spark, would like to be involved in our project, or just want to say hello, please email us:</p>
-//     <p class="Paragraph-text shared_content" id="u46724-6" data-content-guid="u46724-6_content">&nbsp;</p>
-//     <p class="Paragraph-text shared_content" id="u46724-9" data-content-guid="u46724-9_content"><a class="nonblock" href="mailto:hello@spark-app.net">hello@spark-app.net</a></p>
-//     <p class="Paragraph-text shared_content" id="u46724-10" data-content-guid="u46724-10_content">&nbsp;</p>
-//     <p class="Paragraph-text shared_content" id="u46724-11" data-content-guid="u46724-11_content">&nbsp;</p>
-//     <p class="Paragraph-text shared_content" id="u46724-13" data-content-guid="u46724-13_content">Or join us on:</p>
+ <h4 class="titles shared_content" id="u46724-2" data-content-guid="u46724-2_content">Keep in touch!</h4>
+<p>If you’d like to know more about Spark, would like to be involved in our project, or just want to say hello, please email us:</p>
+
+<p><a>href="mailto:hello@spark-app.net">hello@spark-app.net</a></p>
+<p>Or join us on:</p>
 //     <p id="u46724-14" class="shared_content" data-content-guid="u46724-14_content">&nbsp;</p>
 //     <p id="u46724-17"><span id="u46724-15" class="shared_content" data-content-guid="u46724-15_content">​</span><span class="actAsInlineDiv normal_text" id="u47522"><!-- content --><span class="actAsDiv clearfix excludeFromNormalFlow" id="u47480"><!-- group --><span class="actAsDiv clearfix grpelem shared_content" id="u55327" data-content-guid="u55327_content"><!-- group --><a class="nonblock nontext actAsDiv clip_frame grpelem" id="u47481" href="http://www.twitter.com/SparkAppSocial" target="_blank" data-muse-uid="U47481" data-muse-type="img_frame"><!-- image --><img class="block temp_no_img_src" id="u47481_img" data-orig-src="images/twitter.jpg?crc=200920448" alt="" title="Follow Spark on Twitter" width="45" height="45" data-muse-src="images/twitter.jpg?crc=200920448" src="images/blank.gif?crc=4208392903"/></a><a class="nonblock nontext actAsDiv clip_frame grpelem" id="u47483" href="https://www.facebook.com/Spark.app.social" target="_blank" data-muse-uid="U47483" data-muse-type="img_frame"><!-- image --><img class="block temp_no_img_src" id="u47483_img" data-orig-src="images/facebook.jpg?crc=71469794" alt="" title="Like Us on Facebook" width="45" height="45" data-muse-src="images/facebook.jpg?crc=71469794" src="images/blank.gif?crc=4208392903"/></a><a class="nonblock nontext actAsDiv clip_frame grpelem" id="u47487" href="http://www.instagram.com/spark.app" target="_blank" data-muse-uid="U47487" data-muse-type="img_frame"><!-- image --><img class="block temp_no_img_src" id="u47487_img" data-orig-src="images/instagram.jpg?crc=4029373269" alt="" title="Follow Spark on Instagram" width="45" height="45" data-muse-src="images/instagram.jpg?crc=4029373269" src="images/blank.gif?crc=4208392903"/></a></span></span></span><span class="shared_content" data-content-guid="u46724-17_2_content"></span></p>
 //     <p id="u46724-18" class="shared_content" data-content-guid="u46724-18_content">&nbsp;</p>
@@ -60,41 +36,7 @@ export default Contact;
 //    <a class="nonblock nontext Button ButtonSelected clearfix grpelem" id="buttonu51942" href="contact-us.html" data-href="page:U46723"><!-- container box --><div class="transition clearfix grpelem" id="u51943-4"><!-- content --><p>Contact us</p></div></a>
 //   </div>
 //   <div class="verticalspacer" data-offset-top="389" data-content-above-spacer="388" data-content-below-spacer="98"></div>
-//   <div class="clearfix grpelem shared_content" id="u45924-11" data-content-guid="u45924-11_content"><!-- content -->
-//    <p>Copyright © 2016 Wanna Enterprises Limited. All rights reserved. Read our <a class="nonblock" href="terms-and-conditions.html" data-href="page:U62221" target="_blank">Terms &amp; Conditions</a> and <a class="nonblock" href="privacy-policy.html" data-href="page:U45040" target="_blank">Privacy Policy</a><span>.</span></p>
-//   </div>
-//  </div>
-// </div>
-// <div class="breakpoint" id="bp_1024" data-min-width="661" data-max-width="1024"><!-- responsive breakpoint node -->
-//  <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-//   <div class="clearfix grpelem" id="pu45958"><!-- column -->
-//    <div class="clip_frame colelem" id="u45958"><!-- image -->
-//     <img class="block temp_no_img_src" id="u45958_img" data-orig-src="images/spark_with_icon.png?crc=62710494" alt="" width="294" height="73" src="images/blank.gif?crc=4208392903"/>
-//    </div>
-//    <!-- m_editable region-id="editable-static-tag-U46724-BP_1024" template="contact-us.html" data-type="html" data-ice-options="disableImageResize,link" -->
-//    <span class="clearfix colelem placeholder" data-placeholder-for="u46724-21_content"><!-- placeholder node --></span>
-//    <!-- /m_editable -->
-//   </div>
-//   <div class="clearfix grpelem shared_content" id="u45933" data-content-guid="u45933_content"><!-- group -->
-//    <div class="clearfix grpelem" id="u45934"><!-- column -->
-//     <a class="nonblock nontext Button clearfix colelem" id="buttonu45937" href="index.html" data-href="page:U93"><!-- container box --><div class="transition clearfix grpelem" id="u45938-4"><!-- content --><h5 class="menu-blue">Home</h5></div></a>
-//     <a class="nonblock nontext Button clearfix colelem" id="buttonu45945" href="try-it.html" data-href="page:U28929"><!-- container box --><div class="transition clearfix grpelem" id="u45946-4"><!-- content --><h5 class="menu-blue">Try it</h5></div></a>
-//     <a class="nonblock nontext Button clearfix colelem" id="buttonu45941" href="faq.html" data-href="page:U37238"><!-- container box --><div class="transition clearfix grpelem" id="u45942-4"><!-- content --><h5 class="menu-blue">FAQ</h5></div></a>
-//     <a class="nonblock nontext Button clearfix colelem" id="buttonu45943" href="about-us.html" data-href="page:U41302"><!-- container box --><div class="transition clearfix grpelem" id="u45944-4"><!-- content --><h5 class="menu-blue">About</h5></div></a>
-//     <a class="nonblock nontext Button clearfix colelem" id="buttonu45947" href="blog.html" data-href="page:U42232"><!-- container box --><div class="transition clearfix grpelem" id="u45948-4"><!-- content --><h5 class="menu-blue">Blog</h5></div></a>
-//     <a class="nonblock nontext Button clearfix colelem" id="buttonu45935" href="press.html" data-href="page:U36738"><!-- container box --><div class="transition clearfix grpelem" id="u45936-4"><!-- content --><h5 class="menu-blue">Press</h5></div></a>
-//     <a class="nonblock nontext Button ButtonSelected clearfix colelem" id="buttonu45939" href="contact-us.html" data-href="page:U46723"><!-- container box --><div class="transition clearfix grpelem" id="u45940-4"><!-- content --><h5 class="menu-blue">Contact</h5></div></a>
-//    </div>
-//   </div>
-//   <div class="verticalspacer" data-offset-top="406" data-content-above-spacer="405" data-content-below-spacer="98"></div>
-//   <span class="clearfix grpelem placeholder" data-placeholder-for="u45924-11_content"><!-- placeholder node --></span>
-//  </div>
-// </div>
-// <div class="breakpoint" id="bp_660" data-min-width="481" data-max-width="660"><!-- responsive breakpoint node -->
-//  <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-//   <div class="clearfix grpelem temp_no_id" data-orig-id="pu45958"><!-- column -->
-//    <div class="clip_frame colelem temp_no_id" data-orig-id="u45958"><!-- image -->
-//     <img class="block temp_no_id temp_no_img_src" data-orig-src="images/spark_with_icon.png?crc=62710494" alt="" width="306" height="76" data-orig-id="u45958_img" src="images/blank.gif?crc=4208392903"/>
+//   <temp_no_img_src" data-orig-src="images/spark_with_icon.png?crc=62710494" alt="" width="306" height="76" data-orig-id="u45958_img" src="images/blank.gif?crc=4208392903"/>
 //    </div>
 //    <!-- m_editable region-id="editable-static-tag-U46724-BP_660" template="contact-us.html" data-type="html" data-ice-options="disableImageResize,link" -->
 //    <span class="clearfix colelem placeholder" data-placeholder-for="u46724-21_content"><!-- placeholder node --></span>
