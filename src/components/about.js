@@ -14,78 +14,45 @@ const About = () => (
 
 export default About;
 
-// <title>About Us</title>
-// <!-- CSS -->
-// <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=125060978"/>
-// <link rel="stylesheet" type="text/css" href="css/master_b-master.css?crc=178930323"/>
-// <link rel="stylesheet" type="text/css" href="css/about-us.css?crc=3958151370" id="pagesheet"/>
-// <!-- IE-only CSS -->
-// <!--[if lt IE 9]>
-// <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_b-master.css?crc=3840341236"/>
-// <link rel="stylesheet" type="text/css" href="css/nomq_about-us.css?crc=4202111061" id="nomq_pagesheet"/>
-// <![endif]-->
-//  </head>
-// <body>
-//
-// <div class="breakpoint active" id="bp_infinity" data-min-width="1025"><!-- responsive breakpoint node -->
-//  <div class="clearfix borderbox" id="page"><!-- group -->
-//   <div class="grpelem shared_content" id="u28449" data-content-guid="u28449_content"><!-- simple frame -->
-//    &nbsp;
-// </div>
-//   <div class="clip_frame grpelem" id="u51640"><!-- image -->
-//    <img class="block temp_no_img_src" id="u51640_img" data-orig-src="images/spark_with_icon.png?crc=62710494" alt="" width="336" height="83" src="images/blank.gif?crc=4208392903"/>
-//   </div>
-//   <!-- m_editable region-id="editable-static-tag-U41183-BP_infinity" template="about-us.html" data-type="html" data-ice-options="disableImageResize,link" -->
-//   <div class="clearfix grpelem shared_content" id="u41183-77" data-muse-uid="U41183" data-muse-type="txt_frame" data-content-guid="u41183-77_content"><!-- content -->
-//    <h4 class="titles shared_content" id="u41183-2" data-content-guid="u41183-2_content">About Spark</h4>
-//    <p id="u41183-3" class="shared_content" data-content-guid="u41183-3_content">&nbsp;</p>
-//    <p class="Paragraph-text shared_content" id="u41183-5" data-content-guid="u41183-5_content">Spark was co-founded by Damian and Dave. They are always excited to hear from users’ experiences of Spark.</p>
-//    <p id="u41183-6" class="shared_content" data-content-guid="u41183-6_content">&nbsp;</p>
-//    <p class="Paragraph-text shared_content" id="u41183-8" data-content-guid="u41183-8_content">Damian and Dave lived busy lives in London.&nbsp; They like to go out and socialise with friends, go to gigs and concerts and go on weekend trips away.&nbsp; They found it was difficult to get friends to agree on the best time to do things.&nbsp; Their friends had a myriad of interests and sometimes it was difficult to find things to do that appealed to more than a few friends.</p>
-//    <p class="Paragraph-text shared_content" id="u41183-9" data-content-guid="u41183-9_content">&nbsp;</p>
-//    <p class="Paragraph-text shared_content" id="u41183-11" data-content-guid="u41183-11_content">Dave explains, “Many times I would float an idea to friends, for example a ski-trip or a night out, and then find I got too busy with work to chase up who's still keen or who’s definitely coming.&nbsp; I wanted to spend my free time socialising and doing things and not being an event manager.”</p>
-//    <p class="Paragraph-text shared_content" id="u41183-12" data-content-guid="u41183-12_content">&nbsp;</p>
-//    <p class="Paragraph-text shared_content" id="u41183-14" data-content-guid="u41183-14_content">He continues, “I love music and often when trying to book tickets for holidays or concerts, I would ask who's coming and struggle to get people to commit, and then the price of flights would go up or tickets would be sold out.”</p>
-//    <p class="Paragraph-text shared_content" id="u41183-15" data-content-guid="u41183-15_content">&nbsp;</p>
-//    <p class="Paragraph-text shared_content" id="u41183-17" data-content-guid="u41183-17_content">Damian and Dave also felt that they struggled to find photos of their friends from the nights out, holidays and parties.&nbsp; They used apps like Facebook and Dropbox, but it was a chore to get everyone to share photos in the same place and organising them was a pain.</p>
-//    <p id="u41183-18" class="shared_content" data-content-guid="u41183-18_content">&nbsp;</p>
-//    <p class="Paragraph-text shared_content" id="u41183-20" data-content-guid="u41183-20_content">Damian explains, “I got really frustrated at not being able to see all the photos my friends and I had taken in one place.&nbsp; I couldn’t be bothered sorting through photos and would never get round to organising them into albums.”</p>
-//    <p class="Paragraph-text shared_content" id="u41183-21" data-content-guid="u41183-21_content">&nbsp;</p>
-//    <p class="Paragraph-text shared_content" id="u41183-23" data-content-guid="u41183-23_content">“When I thought about it, I really wanted my photos sorted by life events. This is the way I want to reminisce, by thinking of a past life event, and re-living it by looking at the photos.” he says.</p>
-//    <p class="Paragraph-text shared_content" id="u41183-24" data-content-guid="u41183-24_content">&nbsp;</p>
-//    <p class="Paragraph-text shared_content" id="u41183-26" data-content-guid="u41183-26_content">Dave chips in, “A great example was my girlfriend’s birthday party.&nbsp; We knew people had been taking great photos from that night, and even though she emailed round all of our friends asking for their pictures, we knew she was missing a large chunk of the best photos from that day.”</p>
-//    <p class="Paragraph-text shared_content" id="u41183-27" data-content-guid="u41183-27_content">&nbsp;</p>
-//    <p class="Paragraph-text shared_content" id="u41183-29" data-content-guid="u41183-29_content">“Not everybody likes to share too much on Facebook, and we chatted to our friends and they preferred to share photos between small groups of friends.&nbsp; Most of them used Whatsapp, but found it wasn’t great when it came to managing events, and photos weren’t organised well. A lot of the time banter would get in the way of the important details and pictures.”</p>
-//    <p class="Paragraph-text shared_content" id="u41183-30" data-content-guid="u41183-30_content">&nbsp;</p>
-//    <p class="Paragraph-text shared_content" id="u41183-32" data-content-guid="u41183-32_content">This frustration convinced Dave and Damian to co-found Spark to take the pain out of organising events with friends and make it easy for photo albums to be created for each event.</p>
-//    <p id="u41183-33" class="shared_content" data-content-guid="u41183-33_content">&nbsp;</p>
-//    <p class="Paragraph-text shared_content" id="u41183-35" data-content-guid="u41183-35_content">The Spark Vision / Philosophy</p>
-//    <p id="u41183-36" class="shared_content" data-content-guid="u41183-36_content">&nbsp;</p>
-//    <p class="Paragraph-text shared_content" id="u41183-38" data-content-guid="u41183-38_content">We are committed to keeping our app simple and easy to use.&nbsp; Every friend and family member should be able to use it.&nbsp; We strive to make Spark the fastest way to organise events and photos and allow the user to spend more time having fun with the people they love the most.&nbsp; Spark is serious about security and keeps all your photos and details secure and private.</p>
-//    <p id="u41183-39" class="shared_content" data-content-guid="u41183-39_content">&nbsp;</p>
-//    <p class="Paragraph-text shared_content" id="u41183-41" data-content-guid="u41183-41_content">Continuous Support &amp; Improvement</p>
-//    <p id="u41183-42" class="shared_content" data-content-guid="u41183-42_content">&nbsp;</p>
-//    <p class="Paragraph-text shared_content" id="u41183-44" data-content-guid="u41183-44_content">We are working hard to make Spark the best product it can be.&nbsp; We are always keen to hear your feedback and love hearing about your experiences with Spark.&nbsp; Send us a message if you need anything, and we will be quick to respond and help you out.</p>
-//    <p id="u41183-45" class="shared_content" data-content-guid="u41183-45_content">&nbsp;</p>
-//    <p class="Paragraph-text shared_content" id="u41183-47" data-content-guid="u41183-47_content">The Spark Team</p>
-//    <p id="u41183-48" class="shared_content" data-content-guid="u41183-48_content">&nbsp;</p>
-//    <p id="u41183-51"><span id="u41183-49" class="shared_content" data-content-guid="u41183-49_content">​</span><span class="actAsInlineDiv normal_text" id="u61297"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow" id="u61280" data-muse-uid="U61280" data-muse-type="img_frame"><!-- image --><img class="temp_no_img_src" id="u61280_img" data-orig-src="images/damian.jpg?crc=4125297429" alt="" width="246" height="300" data-muse-src="images/damian.jpg?crc=4125297429" src="images/blank.gif?crc=4208392903"/></span></span><span class="shared_content" data-content-guid="u41183-51_2_content"></span></p>
-//    <p id="u41183-52" class="shared_content" data-content-guid="u41183-52_content">&nbsp;</p>
-//    <p class="Paragraph-text shared_content" id="u41183-54" data-content-guid="u41183-54_content">Damian</p>
-//    <p class="Paragraph-text shared_content" id="u41183-56" data-content-guid="u41183-56_content">co-founder</p>
-//    <p class="Paragraph-text shared_content" id="u41183-58" data-content-guid="u41183-58_content">Music: Cheese, stuff your Dad likes.</p>
-//    <p class="Paragraph-text shared_content" id="u41183-60" data-content-guid="u41183-60_content">Likes: Theatre and Meditation.</p>
-//    <p id="u41183-61" class="shared_content" data-content-guid="u41183-61_content">&nbsp;</p>
-//    <p id="u41183-62" class="shared_content" data-content-guid="u41183-62_content">&nbsp;</p>
-//    <p id="u41183-63" class="shared_content" data-content-guid="u41183-63_content">&nbsp;</p>
-//    <p id="u41183-66"><span id="u41183-64" class="shared_content" data-content-guid="u41183-64_content">​</span><span class="actAsInlineDiv normal_text" id="u61355"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow" id="u61338" data-muse-uid="U61338" data-muse-type="img_frame"><!-- image --><img class="temp_no_img_src" id="u61338_img" data-orig-src="images/dave.jpg?crc=268369837" alt="" width="245" height="299" data-muse-src="images/dave.jpg?crc=268369837" src="images/blank.gif?crc=4208392903"/></span></span><span class="shared_content" data-content-guid="u41183-66_2_content"></span></p>
+
+
+<h4 class="titles shared_content" id="u41183-2" data-content-guid="u41183-2_content">About Spark</h4>
+
+<p>Spark was co-founded by Damian and Dave. They are always excited to hear from users’ experiences of Spark.</p>
+
+<p>Damian and Dave lived busy lives in London.&nbsp; They like to go out and socialise with friends, go to gigs and concerts and go on weekend trips away.&nbsp; They found it was difficult to get friends to agree on the best time to do things.&nbsp; Their friends had a myriad of interests and sometimes it was difficult to find things to do that appealed to more than a few friends.</p>
+
+
+<p>Dave explains, “Many times I would float an idea to friends, for example a ski-trip or a night out, and then find I got too busy with work to chase up who's still keen or who’s definitely coming.&nbsp; I wanted to spend my free time socialising and doing things and not being an event manager.”</p>
+
+<p>He continues, “I love music and often when trying to book tickets for holidays or concerts, I would ask who's coming and struggle to get people to commit, and then the price of flights would go up or tickets would be sold out.”</p>
+<p>Damian and Dave also felt that they struggled to find photos of their friends from the nights out, holidays and parties.&nbsp; They used apps like Facebook and Dropbox, but it was a chore to get everyone to share photos in the same place and organising them was a pain.</p>
+<p>Damian explains, “I got really frustrated at not being able to see all the photos my friends and I had taken in one place.&nbsp; I couldn’t be bothered sorting through photos and would never get round to organising them into albums.”</p>
+<p>“When I thought about it, I really wanted my photos sorted by life events. This is the way I want to reminisce, by thinking of a past life event, and re-living it by looking at the photos.” he says.</p>
+<p>Dave chips in, “A great example was my girlfriend’s birthday party.&nbsp; We knew people had been taking great photos from that night, and even though she emailed round all of our friends asking for their pictures, we knew she was missing a large chunk of the best photos from that day.”</p>
+
+<p>“Not everybody likes to share too much on Facebook, and we chatted to our friends and they preferred to share photos between small groups of friends.&nbsp; Most of them used Whatsapp, but found it wasn’t great when it came to managing events, and photos weren’t organised well. A lot of the time banter would get in the way of the important details and pictures.”</p>
+<p>This frustration convinced Dave and Damian to co-found Spark to take the pain out of organising events with friends and make it easy for photo albums to be created for each event.</p>
+
+<p>The Spark Vision / Philosophy</p>
+
+<p>We are committed to keeping our app simple and easy to use.&nbsp; Every friend and family member should be able to use it.&nbsp; We strive to make Spark the fastest way to organise events and photos and allow the user to spend more time having fun with the people they love the most.&nbsp; Spark is serious about security and keeps all your photos and details secure and private.</p>
+//   
+<p>Continuous Support &amp; Improvement</p>
+<p>We are working hard to make Spark the best product it can be.&nbsp; We are always keen to hear your feedback and love hearing about your experiences with Spark.&nbsp; Send us a message if you need anything, and we will be quick to respond and help you out.</p>
+<p>The Spark Team</p>
+<img src="images/damian.jpg?crc=4125297429" alt="" width="246" height="300" data-muse-src="images/damian.jpg?crc=4125297429" src="images/blank.gif?crc=4208392903"/></span></span><span class="shared_content" data-content-guid="u41183-51_2_content"></span></p>
+<p>Damian</p>
+<p>co-founder</p>
+<p>Music: Cheese, stuff your Dad likes.</p>
+<p>Likes: Theatre and Meditation.</p>
+
+<img src="images/dave.jpg?crc=268369837" alt="" width="245" height="299" data-muse-src="images/dave.jpg?crc=268369837" src="images/blank.gif?crc=4208392903"/></span></span><span class="shared_content" data-content-guid="u41183-66_2_content"></span></p>
 //    <p id="u41183-67" class="shared_content" data-content-guid="u41183-67_content">&nbsp;</p>
-//    <p class="Paragraph-text shared_content" id="u41183-69" data-content-guid="u41183-69_content">Dave</p>
-//    <p class="Paragraph-text shared_content" id="u41183-71" data-content-guid="u41183-71_content">co-founder</p>
-//    <p class="Paragraph-text shared_content" id="u41183-73" data-content-guid="u41183-73_content">Music: Funk, Indie, Electronica.</p>
-//    <p class="Paragraph-text shared_content" id="u41183-75" data-content-guid="u41183-75_content">Likes: sport, travelling and technology.</p>
+<p>Dave</p>>co-founder</p>>Music: Funk, Indie, Electronica.</p>
+
+<p>Likes: sport, travelling and technology.</p>
 //   </div>
-//   <!-- /m_editable -->
 //   <div class="clearfix grpelem" id="ppbuttonu51626"><!-- column -->
 //    <div class="clearfix colelem" id="pbuttonu51626"><!-- group -->
 //     <a class="nonblock nontext Button clearfix grpelem" id="buttonu51626" href="index.html" data-href="page:U93"><!-- container box --><div class="transition clearfix grpelem" id="u51627-4"><!-- content --><p>Home</p></div></a>
