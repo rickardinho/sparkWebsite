@@ -2,59 +2,66 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import BurgerMenu from './burger.js';
 import { NavButton, NavbarWrapper } from './../../styles/styles';
-
-import sparkIcon from './images/spark-with-icon.png';
+import sparkIcon from './../../images/icons/sparkLogo.png';
+import sparkName from './../../images/spark2.png';
 
 const Navbar = () => {
 
     return (
         <NavbarWrapper>
 
+            <img src={sparkIcon} alt="SparkIcon" height="80"/>
+            <img src={sparkName} alt="SparkName" height="40"/>
+
             <BurgerMenu />
 
-            <img src={sparkIcon} alt="SparkIcon" width="336" height="83"/>
 
-            <Link to="home">
-                <NavButton>
+            <div>
 
-                    <label>Home</label>
-                </NavButton>
-            </Link>
+              <Link to="home">
+                  <NavButton>
 
-            <Link to="about">
-                <NavButton>
+                      <label>Home</label>
+                  </NavButton>
+              </Link>
 
-                    <label>About</label>
-                </NavButton>
-            </Link>
 
-            <Link to="Download">
-                <NavButton>
+              <Link to="about">
+                  <NavButton>
 
-                    <label>Download</label>
-                </NavButton>
-            </Link>
+                      <label>About</label>
+                  </NavButton>
+              </Link>
 
-            <Link to="help">
-                <NavButton>
+              <Link to="Download">
+                  <NavButton>
 
-                    <label>Help</label>
-                </NavButton>
-            </Link>
+                      <label>Download</label>
+                  </NavButton>
+              </Link>
 
-            <Link to="press">
-                <NavButton>
+              <Link to="help">
+                  <NavButton>
 
-                    <label>Press</label>
-                </NavButton>
-            </Link>
+                      <label>Help</label>
+                  </NavButton>
+              </Link>
 
-            <Link to="contact">
-                <NavButton>
+              <Link to="press">
+                  <NavButton>
 
-                    <label>Contact</label>
-                </NavButton>
-            </Link>
+                      <label>Press</label>
+                  </NavButton>
+              </Link>
+
+              <Link to="contact">
+                  <NavButton>
+
+                      <label>Contact</label>
+                  </NavButton>
+              </Link>
+
+            </div>
 
         </NavbarWrapper>
     );
