@@ -14,6 +14,23 @@ export const Title = styled.h1`
 
 `;
 
+export const H2 = styled.h2`
+  font-family: ${fonts.default};
+  font-size: 1.2em;
+  text-align: center;
+  color: ${colours.blue};
+
+`;
+
+export const H3 = styled.h3`
+  font-family: ${fonts.default};
+  font-size: 1.0em;
+  text-align: center;
+  color: ${colours.blue};
+
+`;
+
+
 export const Wrapper = styled.section`
   padding: 1em;
   background: papayawhip;
