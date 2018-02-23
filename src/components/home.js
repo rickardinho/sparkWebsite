@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { NavButton, NavbarWrapper } from './../styles/styles';
+import { NavButton, NavbarWrapper, h2, h3 } from './../styles/styles';
 import GooglePlay from './general/google-play.js';
 import AppStore from './general/app-store.js';
 import sparkMainImage from './../images/homemainpictcut.jpg';
