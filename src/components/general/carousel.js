@@ -4,7 +4,7 @@ const image1 = require(‘./images/x.png’);
 const image2 = require(‘./images/x.png’);
 const image3 = require(‘./images/x.png’);
 
-export default class Carousel extends Component {
+export default class Carousel extends Component ({children}) {
   render() {
     const settings = {
       dots: true,
