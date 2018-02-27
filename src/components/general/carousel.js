@@ -19,9 +19,7 @@ export default class Carousel extends Component {
       <div>
         
         <Slider {...settings}>
-          <div><img src={image1} /></div>
-          <div><img src={image2} /></div>
-          <div><img src={image3} /></div>
+          {children}
         </Slider>
       </div>
     );
