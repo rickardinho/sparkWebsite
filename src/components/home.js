@@ -15,6 +15,7 @@ import album from './../images/3album.jpg';
 import resultVote from './../images/2-result-vote.jpg';
 import message from './../images/1-message.jpg';
 import Footer from './general/footer.js';
+import Carousel from './general/carousel.js';
 
 const Home = () => (
   <div>
@@ -60,9 +61,11 @@ const Home = () => (
     </div>
 
     <div>
+      <Carousel>
       <img src={album} alt="" data-image-width="280" data-image-height="499" />
       <img src={resultVote} alt="" data-image-width="280" data-image-height="499" />
       <img src={message} alt="" data-image-width="280" data-image-height="499" />
+      </Carousel>
     </div>
 
     <Footer />
