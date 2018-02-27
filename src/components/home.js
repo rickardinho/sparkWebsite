@@ -62,9 +62,9 @@ const Home = () => (
 
     <div>
       <Carousel>
-      <img src={album} alt="" data-image-width="280" data-image-height="499" />
-      <img src={resultVote} alt="" data-image-width="280" data-image-height="499" />
-      <img src={message} alt="" data-image-width="280" data-image-height="499" />
+      <div><img src={album} alt="" data-image-width="280" data-image-height="499" /></div>
+      <div><img src={resultVote} alt="" data-image-width="280" data-image-height="499" /></div>
+      <div><img src={message} alt="" data-image-width="280" data-image-height="499" /></div>
       </Carousel>
     </div>
 
