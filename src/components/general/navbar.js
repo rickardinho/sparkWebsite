@@ -17,7 +17,7 @@ const Navbar = () => {
               </LogoWrapper>
 
               <NavButtonWrapper>
-                <Link to="/home">
+                <Link to="/">
                     <NavButton>
 
                         <label>Home</label>
@@ -32,7 +32,7 @@ const Navbar = () => {
                     </NavButton>
                 </Link>
 
-                <Link to="Download">
+                <Link to="download">
                     <NavButton>
 
                         <label>Download</label>

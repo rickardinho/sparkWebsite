@@ -43,6 +43,55 @@ export const ImageDiv = styled.div`
 
 `;
 
+export const SocialDiv = styled.div`
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+`;
+
+export const DownloadDiv = styled.div`
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: ${colours.offWhite};
+
+`;
+
+export const BulletWrapper = styled.div`
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  @media (max-width: 600px) {
+    margin: 30px;
+    width: auto;
+  }
+
+`;
+
+export const BulletDiv = styled.div`
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  
+
+`;
+
+export const SocialButton = styled.a`
+
+  padding: 10px;
+
+`;
+
 export const NavButtonWrapper = styled.div`
 
 
@@ -107,6 +156,12 @@ export const NavbarWrapper = styled.section`
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
+  padding: 1.2em;
+  background: ${colours.offWhite};
+
+`;
+
+export const FooterWrapper = styled.section`
   padding: 1.2em;
   background: ${colours.offWhite};
 
