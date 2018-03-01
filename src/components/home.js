@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { NavButton, NavbarWrapper, h2, h3 } from './../styles/styles';
+import { NavButton, NavbarWrapper, h2, h3, ImageDiv } from './../styles/styles';
 import GooglePlay from './general/google-play.js';
 import AppStore from './general/app-store.js';
 import sparkMainImage from './../images/homemainpictcut.jpg';
@@ -58,17 +58,18 @@ const Home = () => (
 
       </div>
 
-    </div>
 
-    <div>
       <Carousel>
-      <div><img src={album} alt="" data-image-width="280" data-image-height="499" /></div>
-      <div><img src={resultVote} alt="" data-image-width="280" data-image-height="499" /></div>
-      <div><img src={message} alt="" data-image-width="280" data-image-height="499" /></div>
+        <ImageDiv><img src={album} alt="" width="230" /></ImageDiv>
+        <ImageDiv><img src={resultVote} alt="" width="230" /></ImageDiv>
+        <ImageDiv><img src={message} alt="" width="230" /></ImageDiv>
       </Carousel>
+
+
     </div>
 
-    <Footer />
+
+
   </div>
 );
 

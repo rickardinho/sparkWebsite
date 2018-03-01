@@ -1,27 +1,31 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
-const image1 = require(‘./images/x.png’);
-const image2 = require(‘./images/x.png’);
-const image3 = require(‘./images/x.png’);
+import { CenteredDiv } from './../../styles/styles';
 
-export default class Carousel extends Component ({children}) {
-  render() {
+
+export default class Carousel extends Component {
+
+  render () {
+
     const settings = {
       dots: true,
-      lazyLoad: true,
       infinite: true,
       speed: 500,
+      initialSlide: 0,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      pauseOnHover: true,
       slidesToShow: 1,
-      slidesToScroll: 1,
-      initialSlide: 2
+      slidesToScroll: 1
+
     };
+
     return (
-      <div>
-        
+      <CenteredDiv>
         <Slider {...settings}>
-          {children}
+          {this.props.children}
         </Slider>
-      </div>
+      </CenteredDiv>
     );
   }
 }
