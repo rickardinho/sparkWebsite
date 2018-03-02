@@ -1,6 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { H2, H3, H4, P, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
+import { H2, H3, H4, P, TeamDiv, TeamMemberDiv, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
+import Dave from './../images/dave.jpg';
+import Damian from './../images/damian.jpg';
 
 const About = () => (
   <div>
@@ -10,7 +12,7 @@ const About = () => (
       </div>
 
       <div>
-        <H4>About Spark</H4>
+        <H4>In the beginning</H4>
 
         <P>Spark was co-founded by Damian and Dave. They are always excited to hear from users’ experiences of Spark.</P>
 
@@ -28,24 +30,36 @@ const About = () => (
         <P>“Not everybody likes to share too much on Facebook, and we chatted to our friends and they preferred to share photos between small groups of friends.&nbsp; Most of them used Whatsapp, but found it wasn’t great when it came to managing events, and photos weren’t organised well. A lot of the time banter would get in the way of the important details and pictures.”</P>
         <P>This frustration convinced Dave and Damian to co-found Spark to take the pain out of organising events with friends and make it easy for photo albums to be created for each event.</P>
 
-        <P>The Spark Vision / Philosophy</P>
+        <H4>Our vision for Spark</H4>
 
         <P>We are committed to keeping our app simple and easy to use.&nbsp; Every friend and family member should be able to use it.&nbsp; We strive to make Spark the fastest way to organise events and photos and allow the user to spend more time having fun with the people they love the most.&nbsp; Spark is serious about security and keeps all your photos and details secure and private.</P>
 
-        <P>Continuous Support &amp; Improvement</P>
-        <P>We are working hard to make Spark the best product it can be.&nbsp; We are always keen to hear your feedback and love hearing about your experiences with Spark.&nbsp; Send us a message if you need anything, and we will be quick to respond and help you out.</P>
-        <P>The Spark Team</P>
-        <img src="images/damian.jpg" alt="" width="246" height="300" />
-        <P>Damian</P>
-        <P>co-founder</P>
-        <P>Music: Cheese, stuff your Dad likes.</P>
-        <P>Likes: Theatre and Meditation.</P>
+        <H4>Help us to improve</H4>
+        <P>We are working hard to make Spark the best it can be.&nbsp; We are always keen to hear your feedback and love hearing about your experiences with Spark.&nbsp; Send us a message if you need anything, and we will be quick to respond and help you out.</P>
+        <P>Thankyou for using Spark</P>
 
-        <img src="images/dave.jpg" alt="" width="245" height="299" />
 
-        <P>Dave</P><P>co-founder</P>
-        <P>Music: Funk, Indie, Electronica.</P>
-        <P>Likes: sport, travelling and technology.</P>
+        <H3>The Spark Team</H3>
+
+        <TeamDiv>
+          <TeamMemberDiv>
+            <img src={Dave} alt="" width="245" height="299" />
+            <H4>Dave</H4>
+            <P>co-founder</P>
+            <P>Music: Funk, Indie, Electronica.</P>
+            <P>Likes: sport, travelling and technology.</P>
+          </TeamMemberDiv>
+          <TeamMemberDiv>
+            <img src={Damian} alt="" width="246" height="300" />
+            <H4>Damian</H4>
+            <P>co-founder</P>
+            <P>Music: Cheese, stuff your Dad likes.</P>
+            <P>Likes: Theatre and Meditation.</P>
+          </TeamMemberDiv>
+
+
+        </TeamDiv>
+
       </div>
 
     </div>

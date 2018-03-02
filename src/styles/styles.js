@@ -63,6 +63,29 @@ export const DownloadDiv = styled.div`
 
 `;
 
+export const TeamDiv = styled.div`
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 60%;
+  margin: auto;
+
+
+  @media (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+`;
+
+export const TeamMemberDiv = styled.div`
+  background: ${colours.offWhite};
+
+
+`;
+
 export const BulletWrapper = styled.div`
   width: 500px;
   margin: auto;
