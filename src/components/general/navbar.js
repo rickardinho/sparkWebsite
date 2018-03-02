@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import BurgerMenu from './burger.js';
-import { NavButton, NavbarWrapper, NavButtonWrapper, Logo, LogoName, LogoWrapper, BurgerWrapper } from './../../styles/styles';
+import { NavButton, NavLabel, NavbarWrapper, NavButtonWrapper, Logo, LogoName, LogoWrapper, BurgerWrapper } from './../../styles/styles';
 import sparkIcon from './../../images/icons/sparkLogo.png';
 import sparkName from './../../images/spark2.png';
 
@@ -20,7 +20,7 @@ const Navbar = () => {
                 <Link to="/">
                     <NavButton>
 
-                        <label>Home</label>
+                        <NavLabel>Home</NavLabel>
                     </NavButton>
                 </Link>
 
@@ -28,35 +28,35 @@ const Navbar = () => {
                 <Link to="/about">
                     <NavButton>
 
-                        <label>About</label>
+                        <NavLabel>About</NavLabel>
                     </NavButton>
                 </Link>
 
                 <Link to="download">
                     <NavButton>
 
-                        <label>Download</label>
+                        <NavLabel>Download</NavLabel>
                     </NavButton>
                 </Link>
 
                 <Link to="help">
                     <NavButton>
 
-                        <label>Help</label>
+                        <NavLabel>Help</NavLabel>
                     </NavButton>
                 </Link>
 
                 <Link to="press">
                     <NavButton>
 
-                        <label>Press</label>
+                        <NavLabel>Press</NavLabel>
                     </NavButton>
                 </Link>
 
                 <Link to="contact">
                     <NavButton>
 
-                        <label>Contact</label>
+                        <NavLabel>Contact</NavLabel>
                     </NavButton>
                 </Link>
               </NavButtonWrapper>

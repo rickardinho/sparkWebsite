@@ -1,6 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { FooterWrapper, SocialDiv, SocialButton } from './../../styles/styles';
+import { Link } from 'react-router-dom';
+import { FooterLink, FooterText, FooterWrapper, SocialDiv, SocialButton } from './../../styles/styles';
 import twitterImage from './../../images/twitter.jpg';
 import facebookImage from './../../images/facebook.jpg';
 import instagramImage from './../../images/instagram.jpg';
@@ -16,8 +17,8 @@ const Footer = () => (
 
     </SocialDiv>
 
-    <p>Copyright © 2016 Wanna Enterprises Limited. All rights reserved.</p>
-    <p>Read our <a class="nonblock" href="terms-and-conditions.html" >Terms &amp; Conditions</a> and <a class="nonblock" href="privacy-policy.html" >Privacy Policy</a></p>
+    <FooterText>Copyright © 2016 Wanna Enterprises Limited. All rights reserved.</FooterText>
+    <FooterText>Read our <Link to="/terms"><FooterLink>Terms &amp; Conditions</FooterLink></Link> and <Link to="/privacy"><FooterLink>Privacy Policy</FooterLink></Link></FooterText>
 
   </FooterWrapper>
 );

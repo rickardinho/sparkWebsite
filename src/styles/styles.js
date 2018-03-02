@@ -2,7 +2,8 @@ import styled from 'styled-components';
 import colours from './colours';
 
 const fonts = {
-  default: "Arial, Helvetica, sans-serif",
+  default: "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif",
+  default2: "Arial, Helvetica, sans-serif",
   thin: 500
 };
 
@@ -82,7 +83,7 @@ export const BulletDiv = styled.div`
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  
+
 
 `;
 
@@ -118,20 +119,73 @@ export const Title = styled.h1`
 
 export const H2 = styled.h2`
   font-family: ${fonts.default};
-  font-size: 1.2em;
   text-align: center;
   color: ${colours.blue};
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: .04px;
+  font-weight: 300;
 
 `;
 
 export const H3 = styled.h3`
   font-family: ${fonts.default};
-  font-size: 1.0em;
   text-align: center;
   color: ${colours.blue};
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+
 
 `;
 
+export const H4 = styled.h4`
+  font-family: ${fonts.default};
+  text-align: left;
+  margin: 15px;
+  color: ${colours.blue};
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+
+
+`;
+
+export const P = styled.p`
+  font-family: ${fonts.default};
+  text-align: left;
+  margin: 10px;
+  color: ${colours.blue};
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 300;
+
+
+`;
+
+export const FooterText = styled.p`
+  font-family: ${fonts.default};
+  text-align: center;
+  color: ${colours.blue};
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 300;
+  text-decoration: none;
+
+
+`;
+
+export const FooterLink = styled.a`
+  font-family: ${fonts.default};
+  color: ${colours.blue};
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  border: none;
+  text-decoration: none;
+
+
+`;
 
 export const Wrapper = styled.section`
 
@@ -149,6 +203,10 @@ export const NavButton = styled.button`
   padding: 14px 16px;
 `;
 
+export const NavLabel = styled.label`
+
+`;
+
 export const NavbarWrapper = styled.section`
 
   display: flex;
@@ -158,6 +216,7 @@ export const NavbarWrapper = styled.section`
   align-items: center;
   padding: 1.2em;
   background: ${colours.offWhite};
+  button:focus {outline:0;};
 
 `;
 

@@ -1,18 +1,56 @@
 import React, { Component } from 'react';
 import { slide as Menu } from 'react-burger-menu'
-import { NavButton, NavbarWrapper, BurgerStyles } from './../../styles/styles';
+import { Link } from 'react-router-dom';
+import { NavButton, NavLabel, NavbarWrapper, BurgerStyles } from './../../styles/styles';
 
 class BurgerMenu extends Component {
 
   render () {
     return (
       <Menu styles={ BurgerStyles } id={ "sidebar" } className={ "burger-menu" } right>
-        <a id="home" className="menu-item" href="/">Home</a>
-        <a id="about" className="menu-item" href="/about">About</a>
-        <a id="download" className="menu-item" href="/download">Download</a>
-        <a id="help" className="menu-item" href="/help">Help</a>
-        <a id="press" className="menu-item" href="/press">Press</a>
-        <a id="contact" className="menu-item" href="/contact">Contact Us</a>
+        
+        <Link to="/">
+            <NavButton>
+
+                <NavLabel>Home</NavLabel>
+            </NavButton>
+        </Link>
+
+
+        <Link to="/about">
+            <NavButton>
+
+                <NavLabel>About</NavLabel>
+            </NavButton>
+        </Link>
+
+        <Link to="download">
+            <NavButton>
+
+                <NavLabel>Download</NavLabel>
+            </NavButton>
+        </Link>
+
+        <Link to="help">
+            <NavButton>
+
+                <NavLabel>Help</NavLabel>
+            </NavButton>
+        </Link>
+
+        <Link to="press">
+            <NavButton>
+
+                <NavLabel>Press</NavLabel>
+            </NavButton>
+        </Link>
+
+        <Link to="contact">
+            <NavButton>
+
+                <NavLabel>Contact</NavLabel>
+            </NavButton>
+        </Link>
       </Menu>
     );
   }

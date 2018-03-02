@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { NavButton, NavbarWrapper, h2, h3, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
+import { NavButton, NavbarWrapper, H2, H3, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
 import GooglePlay from './general/google-play.js';
 import AppStore from './general/app-store.js';
 import sparkMainImage from './../images/homemainpictcut.jpg';
@@ -18,7 +18,7 @@ const Home = () => (
   <div>
     <div className="Home">
       <div className="Home-header">
-        <h2>Your social life sorted.</h2>
+        <H2>Your social life sorted.</H2>
         <img src={sparkMainImage} alt="SparkLifestyleImage" width="339" height="411" />
       </div>
 
@@ -26,7 +26,7 @@ const Home = () => (
 
     <div>
 
-      <h2>Spark is a FREE mobile app that makes organising social events and sharing photos easy.</h2>
+      <H2>Spark is a FREE mobile app that makes organising social events and sharing photos easy.</H2>
 
       <DownloadDiv>
         <div><GooglePlay /></div>
@@ -38,25 +38,25 @@ const Home = () => (
         <BulletDiv>
           <img src={pollImage} alt="" width="49" height="49"/>
           <div style={{ width: '10px' }} />
-          <h3>Poll to decide what, where and when.</h3>
+          <H3>Poll to decide what, where and when.</H3>
         </BulletDiv>
 
         <BulletDiv>
           <img src={inviteImage} alt="" width="49" height="49" />
           <div style={{ width: '10px' }} />
-          <h3>Invite friends, family or groups.</h3>
+          <H3>Invite friends, family or groups.</H3>
         </BulletDiv>
 
         <BulletDiv>
           <img src={shareImage} alt="" width="49" height="49" />
           <div style={{ width: '10px' }} />
-          <h3>Easily share and view the best pictures.</h3>
+          <H3>Easily share and view the best pictures.</H3>
         </BulletDiv>
 
         <BulletDiv>
           <img src={saveImage} alt="" width="49" height="49" />
           <div style={{ width: '10px' }} />
-          <h3>Save your favourites to Facebook and more...</h3>
+          <H3>Save your favourites to Facebook and more...</H3>
         </BulletDiv>
 
       </BulletWrapper>

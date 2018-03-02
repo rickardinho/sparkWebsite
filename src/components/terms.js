@@ -1,11 +1,13 @@
 import React from 'react';
 import { render } from 'react-dom';
+import { H2, H3, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
+
 
 const Terms = () => (
   <div>
     <div className="Terms">
       <div className="Terms-header">
-        <h2>Terms</h2>
+        <H2>Terms</H2>
       </div>
       <p className="Termsstuff">
         blah blah.

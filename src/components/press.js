@@ -1,19 +1,19 @@
 import React from 'react';
 import { render } from 'react-dom';
+import { H2, H3, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
+
 
 const Home = () => (
   <div>
     <div className="Home">
       <div className="Home-header">
-        <h2>Welcome to Spark Website</h2>
+        <H2>Welcome to Spark Website</H2>
       </div>
       <p className="Home-intro">
         To get started, blah blah.
       </p>
     </div>
-    <div>
-     <p>Copyright © 2016 Wanna Enterprises Limited. All rights reserved. Read our <a class="nonblock" href="terms-and-conditions.html" >Terms &amp; Conditions</a> and <a class="nonblock" href="privacy-policy.html" >Privacy Policy</a></p>
-    </div>
+    
   </div>
 );
 
