@@ -1,45 +1,26 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { H2, H3, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
+import { H2, H3, H4, P, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
 
 
-const Help = () => (
+const Faq = () => (
   <div>
     <div className="Help">
       <div className="Help-header">
-        <H2>Help</H2>
+        <H2>Frequently Asked Questions</H2>
       </div>
+
+      <H4>Welcome to our FAQ </H4>
+
+      <P>Here some answers to the questions you may have regarding Spark App. If you don't find what you are looking for, do not hesitate to contact us via our contact page or email us and we will get back to you as soon as possible.</P>
 
     </div>
   </div>
 );
 
-export default Help;
+export default Faq;
 
-// <title>FAQ</title>
-// <!-- CSS -->
-// <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=125060978"/>
-// <link rel="stylesheet" type="text/css" href="css/master_b-master.css?crc=178930323"/>
-// <link rel="stylesheet" type="text/css" href="css/faq.css?crc=3988106387" id="pagesheet"/>
-// <!-- IE-only CSS -->
-// <!--[if lt IE 9]>
-// <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_b-master.css?crc=3840341236"/>
-// <link rel="stylesheet" type="text/css" href="css/nomq_faq.css?crc=4158593210" id="nomq_pagesheet"/>
-// <![endif]-->
-//  </head>
-// <body>
-//
-// <div class="breakpoint active" id="bp_infinity" data-min-width="1025"><!-- responsive breakpoint node -->
-//  <div class="clearfix borderbox" id="page"><!-- group -->
-//   <div class="clearfix grpelem" id="pu51640"><!-- column -->
-//    <div class="clip_frame colelem" id="u51640"><!-- image -->
-//     <img class="block temp_no_img_src" id="u51640_img" data-orig-src="images/spark_with_icon.png?crc=62710494" alt="" width="336" height="83" src="images/blank.gif?crc=4208392903"/>
-//    </div>
-//    <!-- m_editable region-id="editable-static-tag-U37624-BP_infinity" template="faq.html" data-type="html" data-ice-options="disableImageResize,link" -->
-//    <div class="clearfix colelem" id="u37624-72" data-muse-uid="U37624" data-muse-type="txt_frame"><!-- content -->
-//     <h4 class="titles shared_content" id="u37624-2" data-content-guid="u37624-2_content">Welcome to our FAQ</h4>
-//     <p id="u37624-3" class="shared_content" data-content-guid="u37624-3_content">&nbsp;</p>
-//     <p class="Paragraph-text shared_content" id="u37624-5" data-content-guid="u37624-5_content">Here some answers to the questions you may have regarding Spark App. If you don't find what you are looking for, do not hesitate to contact us via our contact page or email us and we will get back to you as soon as possible.</p>
+
 //     <p id="u37624-6" class="shared_content" data-content-guid="u37624-6_content">&nbsp;</p>
 //     <h4 class="titles shared_content" id="u37624-9" data-content-guid="u37624-9_content"><span id="u37624-7">Q. What is Spark?</span><span id="u37624-8"></span></h4>
 //     <h4 class="titles shared_content" id="u37624-10" data-content-guid="u37624-10_content">&nbsp;</h4>
