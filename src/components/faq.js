@@ -9,15 +9,9 @@ const Help = () => (
       <div className="Help-header">
         <H2>Help</H2>
       </div>
-
-    </div>
-  </div>
-);
-
-export default Help;
-
-
-
+  
+<div>
+  
 <h4>Welcome to our FAQ</h4>
 
 <p>Here some answers to the questions you may have regarding Spark App. If you don't find what you are looking for, do not hesitate to contact us via our contact page or email us and we will get back to you as soon as possible.</p>
@@ -36,3 +30,13 @@ export default Help;
 <p>A: With Spark you can poll groups of people, so you can let everybody choose to what to do.&nbsp; A picnic or an afternoon tea with granny? Karting or paintballing for the stag do? Or a friday drink in Soho or Shoreditch (yes, you can poll on location and dates too)?</p>
 <p>Then you can share the pictures within the group, which means even granny will be able to see the pictures that all the family took of her birthday and Dave’s stag do pictures will only be seen by the people who were at the stag do (it’s probably better this way).</p>
 <p>It’s easy to miss Facebook event notifications in an endless stream of adverts, baby photos and status updates.&nbsp; Spark is a new app solely for events, and is designed specially for use with events.&nbsp; Spark’s is designed so you can organise the best parties, get consensus on the best dates for a holiday, and decide who’s coming to the next hot ticket in town.</p>
+
+<div>
+
+    </div>
+  </div>
+);
+
+export default Help;
+
+
