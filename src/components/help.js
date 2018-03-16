@@ -16,6 +16,8 @@ const Help = () => (
                         <NavLabel>FAQ</NavLabel>
                     </NavButton>
                 </Link>
+  {/* add this */}
+        {this.props.children}
   
     </div>
   </div>
