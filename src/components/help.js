@@ -10,6 +10,13 @@ const Help = () => (
         <H2>Help</H2>
       </div>
 
+  <Link to="/faq">
+                    <NavButton>
+
+                        <NavLabel>FAQ</NavLabel>
+                    </NavButton>
+                </Link>
+  
     </div>
   </div>
 );
