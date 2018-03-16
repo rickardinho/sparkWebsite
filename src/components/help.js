@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { H2, H3, NavButton, NavLabel, NavbarWrapper, NavButtonWrapper, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
 
 
-const Help = () => (
+const Help = props => (
   <div>
     <div className="Help">
       <div className="Help-header">
@@ -18,13 +18,13 @@ const Help = () => (
             <NavLabel>FAQ</NavLabel>
          </NavButton>
       </Link>
-  
+
       <div>
-      
-        {this.props.children}
-  
+
+        {props.children}
+
       </div>
-  
+
     </div>
   </div>
 );

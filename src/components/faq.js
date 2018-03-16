@@ -13,7 +13,7 @@ const Faq = () => (
 
       <div className="Faq-body">
 
-        <h4>Welcome to our FAQ</H4>
+        <H4>Welcome to our FAQ</H4>
         <p>Here some answers to the questions you may have regarding Spark App. If you don&quot;t find what you are looking for, do not hesitate to contact us via our contact page or email us and we will get back to you as soon as possible.</p>
 
         <H4>Q. What is Spark?</H4>
