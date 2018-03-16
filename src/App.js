@@ -12,6 +12,7 @@ import Press from './components/press.js';
 import Contact from './components/contact.js';
 import Terms from './components/terms.js';
 import Privacy from './components/privacy.js';
+import Faq from './components/faq.js';
 import Navbar from './components/general/navbar.js';
 import Footer from './components/general/footer.js';
 import { store } from './init-store.js';
@@ -36,6 +37,7 @@ const Routes = () => {
         <Route path='/contact' component={ Contact } />
         <Route path='/terms' component={ Terms } />
         <Route path='/privacy' component={ Privacy } />
+        <Route path='/faq' component={ Faq } />
 
         <Footer />
 

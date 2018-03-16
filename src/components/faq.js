@@ -1,10 +1,11 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { H2, H3, H4, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
+import { H2, H3, H4, P, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
 
 
 const Faq = () => (
   <div>
+
     <div className="Faq">
       <div className="Faq-header">
         <H2>Frequently Asked Questions</H2>
@@ -35,10 +36,11 @@ const Faq = () => (
         <p>Then you can share the pictures within the group, which means even granny will be able to see the pictures that all the family took of her birthday and Dave’s stag do pictures will only be seen by the people who were at the stag do (it’s probably better this way).</p>
         <p>It’s easy to miss Facebook event notifications in an endless stream of adverts, baby photos and status updates.&nbsp; Spark is a new app solely for events, and is designed specially for use with events.&nbsp; Spark’s is designed so you can organise the best parties, get consensus on the best dates for a holiday, and decide who’s coming to the next hot ticket in town.</p>
 
+
       </div>
 
     </div>
   </div>
 );
 
-export default ;
+export default Faq;
