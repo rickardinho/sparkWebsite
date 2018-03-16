@@ -7,6 +7,7 @@ import Home from './components/home.js';
 import About from './components/about.js';
 import Download from './components/download.js';
 import Help from './components/help.js';
+import Faq from './components/faq.js';
 import Press from './components/press.js';
 import Contact from './components/contact.js';
 import Terms from './components/terms.js';
@@ -29,7 +30,9 @@ const Routes = () => {
         <Route exact path="/" component={ Home } />
         <Route path='/about' component={ About } />
         <Route path='/download' component={ Download } />
-        <Route path='/help' component={ Help } />
+        <Route path='/help' component={ Help } >
+          <Route path='/faq' component={ Faq } />
+        </Route>
         <Route path='/press' component={ Press } />
         <Route path='/contact' component={ Contact } />
         <Route path='/terms' component={ Terms } />

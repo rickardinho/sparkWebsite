@@ -11,18 +11,20 @@ const Help = () => (
         <H2>Help</H2>
       </div>
 
+
+      <Link to="/faq">
+         <NavButton>
+
+            <NavLabel>FAQ</NavLabel>
+         </NavButton>
+      </Link>
+  
       <div>
-        <Link to="/faq">
-            <NavButton>
-                <NavLabel>FAQ</NavLabel>
-            </NavButton>
-        </Link>
+      
+        {this.props.children}
+  
       </div>
-
-      <div>
-
-      </div>
-
+  
     </div>
   </div>
 );
