@@ -164,7 +164,7 @@ export const H3 = styled.h3`
 
 export const H4 = styled.h4`
   font-family: ${fonts.default};
-  text-align: left;
+  text-align: center;
   margin: 15px;
   color: ${colours.blue};
   font-size: 15px;
@@ -176,13 +176,27 @@ export const H4 = styled.h4`
 
 export const P = styled.p`
   font-family: ${fonts.default};
-  text-align: left;
+  text-align: justify;
   margin: 10px;
   color: ${colours.blue};
   font-size: 15px;
   line-height: 22px;
   font-weight: 300;
 
+
+`;
+
+export const CenteredP = styled.p`
+  margin: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+
+  @media (max-width: 800px) {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 
 `;
 
