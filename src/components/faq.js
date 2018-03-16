@@ -3,11 +3,11 @@ import { render } from 'react-dom';
 import { H2, H3, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
 
 
-const Help = () => (
+const Faq = () => (
   <div>
-    <div className="Help">
-      <div className="Help-header">
-        <H2>Help</H2>
+    <div className="Faq">
+      <div className="Faq-header">
+        <H2>Frequently Asked Questions</H2>
       </div>
   
 <div>
@@ -37,6 +37,6 @@ const Help = () => (
   </div>
 );
 
-export default Help;
+export default ;
 
 
