@@ -17,16 +17,22 @@ const Why = () => (
         <p>Here's why Spark is useful and should be one of your favorite apps.</p>
 
         <H4>No more losing important details in long streams of messages</H4>
+        <P>Sound familiar?  Just turned on your phone to 100s of new message alerts?  You scan through them quickly and miss an important date change or change to the meeting point?  Spark has you covered.  WSoark helps you organise your social life and youll never miss an important update again.</P>
   
         <H4>Invite friends using many different platforms</H4>
+        <P>With Spark you can send invites via Whatsapp, Email, SMS, Facebook, and any other social or communication apps.  Now you can invite your friends and family who may not use Facebook or Whatsapp using email or the apps that they use the most.  When you invite somevidy who doesnt have Spark yet, they will receive a link to download the app.  Once they have ot, they'll see your invite.</p>
   
         <H4>Perfect for use with close friends and family</H4>
+        <P>Do you have some friends that refuse to use Facebook?  Or are you tired of adverts and posts from old work colleagues that you haven't seen in years? Spark is noise-free, and focussed around your friends and family that you want to meet regularly.  Spark is for you and your closest and dearest.
   
         <H4>Works with your existing apps</H4>
+        <P>Spark doesn't replace your favourite social apps, it works with them.  You can contunue to use your favourite WhatsApp or Messenger groups, and your existing contacts and calendar.  Spark just helpa keeps your events organised in a better way.</P>
   
         <H4>Keep your data and photos private</H4>
+        <P>Concerned about privacy?  With Spark, only event invitees can see your photos and data.  So no worries about photos going outside the group.</P>
+  
         
-        <H4>With Spark's new Albums feature, keep photos organised without hassle.</H4>
+        <H4>With Spark's new Albums feature(coming soon), keep photos organised without hassle.</H4>
   
   
   
