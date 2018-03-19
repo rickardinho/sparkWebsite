@@ -25,17 +25,21 @@ const How = () => (
         <H4>Respond to invites from your friends</H4>
         <p>Click on a link you receive and Spark will open automatically if you have installed it alrwady and you will be taken directly to you invite. You can also click on any event in the Feed  or Calendar to open ans event and change your vote or response. </p>
 
-        <H4>Q. Who is it for?</H4>
-        <p>A: You can use Spark with all your groups, including friends, family, sports clubs, interest groups, wedding guests and parents and kids&quot; clubs.</p>
+        <H4>Check the calendar for upcoming events</H4>
+        <p>The calendar shows all your events in chronological order.  You can switch between All events, those you are hosting and those you have been invited to.</p>
 
-        <H4>Q. When will the app be launched?</H4>
-        <p>A: SPARK is coming soon. Please enter your email below to be notified as soon as it&quot;s ready.</p>
+        <H4>New invites and activity appear in the Feed</H4>
+        <p>Click on any feed item and you can review the details of the event and how all your friends have responded.</p>
 
-        <H4>Q. Why shouldn’t I just use Facebook?</H4>
-        <p>A: With Spark you can poll groups of people, so you can let everybody choose to what to do.&nbsp; A picnic or an afternoon tea with granny? Karting or paintballing for the stag do? Or a friday drink in Soho or Shoreditch (yes, you can poll on location and dates too)?</p>
-        <p>Then you can share the pictures within the group, which means even granny will be able to see the pictures that all the family took of her birthday and Dave’s stag do pictures will only be seen by the people who were at the stag do (it’s probably better this way).</p>
-        <p>It’s easy to miss Facebook event notifications in an endless stream of adverts, baby photos and status updates.&nbsp; Spark is a new app solely for events, and is designed specially for use with events.&nbsp; Spark’s is designed so you can organise the best parties, get consensus on the best dates for a holiday, and decide who’s coming to the next hot ticket in town.</p>
-
+        <H4>New features coming soon/H4>
+        <p>Calendar syncing - sync your Spark calendar with your phone calendar.</p>
+        <p>Albums - share your photos and keep your memories of past events organised. Tag your favourites.</p>
+        <p>Make sure you follow us on Facebook or Instagram to stay informed.</p>
+        
+        <H4>Be notified of changes to events/H4>
+        <p>Make sure you allow notifications when you first open Spark.  If you do not you will have to delete the app and reinstall tonbe prompted again (sorry, this is the way those pesky appstores work).</p>
+        
+        
 
       </div>
 
