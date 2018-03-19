@@ -3,27 +3,27 @@ import { render } from 'react-dom';
 import { H2, H3, H4, P, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
 
 
-const Faq = () => (
+const How = () => (
   <div>
 
-    <div className="Faq">
-      <div className="Faq-header">
-        <H2>Frequently Asked Questions</H2>
+    <div className="How">
+      <div className="How-header">
+        <H2>How it works</H2>
       </div>
 
-      <div className="Faq-body">
+      <div className="How-body">
 
-        <H4>Welcome to our FAQ</H4>
-        <p>Here some answers to the questions you may have regarding Spark App. If you don&quot;t find what you are looking for, do not hesitate to contact us via our contact page or email us and we will get back to you as soon as possible.</p>
+        <H4>How to use Spark</H4>
+        <p>Here is a quick overview to get you started.</p>
 
-        <H4>Q. What is Spark?</H4>
-        <p>A: Spark is a free mobile app that allows you to arrange to meet up with friends easily. You can poll friends or family on activities, dates and venues, and easily gather the photos from everyone who attends the event. Then share your favourite photos to social networks (eg. Facebook) or cloud photo storage (eg. Picasa, Google Drive...)</p>
+        <H4>Create an event</H4>
+        <p>Click on the Create button to create an event.  You can enter as many details as you want, or add more options to create a poll.  If you create a poll uour friends will be asked to vote and then you can review their votes before you confirm the final details.</p>
 
-        <H4>Q. How does Spark work?</H4>
-        <p>A: Ask your friend’s what they would like to do, when they would like to go out and where they would prefer to meet.&nbsp; You receive a poll back from all your friends, and you can see which is the most popular among your friends. Once you have confirmed the event, you can collect the best photos during and after your event, regardless of who took them, effortlessly creating albums of the most memorable moments in life.</p>
+        <H4>Invite friends/H4>
+        <p>Once you have entered the details, invite your friends.  Tap Invite Friends and Spark will generate a unique link to you event, which you cam then share on Whatsapp, Email, SMS, Facebook, or any other app you and you friends use.  You can even send a link ti pre-existing Whatsapp groups.  Spark works with your other apps to help organize the important details. You can use your existing networks for messages and banter.</p>
 
-        <H4>Q. What can I use Spark for?</H4>
-        <p>A: Spark can be used for all occasions. Use it for drinks at the pub, parties, dinners, birthdays, cinema trips, sports events, gigs and concerts, holidays, fundraisers, wedding gatherings or stag weekends.</p>
+        <H4>Respond to invites from your friends</H4>
+        <p>Click on a link you receive and Spark will open automatically if you have installed it alrwady and you will be taken directly to you invite. You can also click on any event in the Feed  or Calendar to open ans event and change your vote or response. </p>
 
         <H4>Q. Who is it for?</H4>
         <p>A: You can use Spark with all your groups, including friends, family, sports clubs, interest groups, wedding guests and parents and kids&quot; clubs.</p>
