@@ -13,13 +13,12 @@ const How = () => (
 
       <div className="How-body">
 
-        <H4>How to use Spark</H4>
-        <p>Here is a quick overview to get you started.</p>
+        <H4>Why Spark</H4>
+        <p>Here's why Spark is useful and should be one of your favorite apps.</p>
 
-        <H4>Create an event</H4>
-        <p>Click on the Create button to create an event.  You can enter as many details as you want, or add more options to create a poll.  If you create a poll uour friends will be asked to vote and then you can review their votes before you confirm the final details.</p>
-
-        <H4>Invite friends/H4>
+        <H4>What our users say:</H4>
+        <p>Before I had Spark, I would get to lunchtime with 100s of new messages in my mates' Whatsapp group.  Anytime somebody mentioned a date or a place to meet, I'd have tonscroll through hundreds of messages tonfind the time to meet or the venue.  Now i can just use Whatsapp for banter and sharing invites and rely on Spark to keep tje important details in one place
+ Its so easy to find them now.</p>
         <p>Once you have entered the details, invite your friends.  Tap Invite Friends and Spark will generate a unique link to you event, which you cam then share on Whatsapp, Email, SMS, Facebook, or any other app you and you friends use.  You can even send a link ti pre-existing Whatsapp groups.  Spark works with your other apps to help organize the important details. You can use your existing networks for messages and banter.</p>
 
         <H4>Respond to invites from your friends</H4>
