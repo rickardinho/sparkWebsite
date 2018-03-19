@@ -47,4 +47,4 @@ const How = () => (
   </div>
 );
 
-export default Faq;
+export default How;
