@@ -4,10 +4,28 @@ import { H2, H3, H4, P, TeamDiv, TeamMemberDiv, BulletWrapper, ImageDiv, SocialD
 import Dave from './../images/dave.jpg';
 import Damian from './../images/damian.jpg';
 
-const About = () => (
+const About = (props) => (
   <div>
     <div className="About">
       <div className="About-header">
+        
+        <Link to="/why">
+         <NavButton>
+
+            <NavLabel>Why Spark?</NavLabel>
+         </NavButton>
+        </Link>
+  
+        <Link to="/history">
+         <NavButton>
+
+            <NavLabel>The Spark story</NavLabel>
+         </NavButton>
+      </Link>
+
+      { props.children }
+        
+  
         <H2>About Spark</H2>
       </div>
 
