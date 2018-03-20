@@ -70,3 +70,8 @@ const About = (props) => (
         </TeamDiv>
 
       </div>
+  
+  </div>
+);
+
+export default About;
