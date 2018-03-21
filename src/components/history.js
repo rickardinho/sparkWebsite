@@ -1,27 +1,20 @@
-
-
 import React from 'react';
 import { render } from 'react-dom';
 import { H2, H3, H4, P, TeamDiv, TeamMemberDiv, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
 import Dave from './../images/dave.jpg';
 import Damian from './../images/damian.jpg';
 
-const About = (props) => (
+const Hist = () => (
   <div>
-    <div className="About">
-      <div className="About-header">
-        
+    <div className="History">
 
+      <div className="History-header">
 
+        <H2>The Spark story</H2>
 
-
-  
-        <H2>About Spark</H2>
       </div>
 
-      <div>
-
-        <H4>The Spark story</H4>
+      <div className="History-body">
 
         <P>Spark was co-founded by Damian and Dave. They are always excited to hear from users’ experiences of Spark.</P>
 
@@ -46,11 +39,14 @@ const About = (props) => (
         <P>We are working hard to make Spark the best it can be.&nbsp; We are always keen to hear your feedback and love hearing about your experiences with Spark.&nbsp; Send us a message if you need anything, and we will be quick to respond and help you out.</P>
         <P>Thankyou for using Spark</P>
 
+      </div>
 
+      <div>
 
         <H3>The Spark Team</H3>
 
         <TeamDiv>
+
           <TeamMemberDiv>
             <img src={Dave} alt="" width="245" height="299" />
             <H4>Dave</H4>
@@ -58,6 +54,7 @@ const About = (props) => (
             <P>Music: Funk, Indie, Electronica.</P>
             <P>Likes: sport, travelling and technology.</P>
           </TeamMemberDiv>
+
           <TeamMemberDiv>
             <img src={Damian} alt="" width="246" height="300" />
             <H4>Damian</H4>
@@ -66,12 +63,11 @@ const About = (props) => (
             <P>Likes: Theatre and Meditation.</P>
           </TeamMemberDiv>
 
-
         </TeamDiv>
 
       </div>
-  
+    </div>
   </div>
 );
 
-export default About;
+export default Hist;
