@@ -18,6 +18,13 @@ const Help = props => (
             <NavLabel>FAQ</NavLabel>
          </NavButton>
       </Link>
+  
+  <Link to="/how">
+         <NavButton>
+
+            <NavLabel>How it works</NavLabel>
+         </NavButton>
+      </Link>
 
       <div>
 

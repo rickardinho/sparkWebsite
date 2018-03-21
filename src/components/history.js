@@ -1,3 +1,5 @@
+
+
 import React from 'react';
 import { render } from 'react-dom';
 import { H2, H3, H4, P, TeamDiv, TeamMemberDiv, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
@@ -9,22 +11,10 @@ const About = (props) => (
     <div className="About">
       <div className="About-header">
         
-        <Link to="/why">
-         <NavButton>
 
-            <NavLabel>Why Spark?</NavLabel>
-         </NavButton>
-        </Link>
-  
-        <Link to="/history">
-         <NavButton>
 
-            <NavLabel>The Spark story</NavLabel>
-         </NavButton>
-      </Link>
 
-      { props.children }
-        
+
   
         <H2>About Spark</H2>
       </div>
@@ -39,7 +29,6 @@ const About = (props) => (
 
 
         <P>Dave explains, “Many times I would float an idea to friends, for example a ski-trip or a night out, and then find I got too busy with work to chase up who's still keen or who’s definitely coming.&nbsp; I wanted to spend my free time socialising and doing things and not being an event manager.”</P>
-
         <P>He continues, “I love travelling and music, and often, when trying to book tickets for holidays or concerts, I would ask who's coming and struggle to get people to commit, and then the price of flights would go up or tickets would be sold out.”</P>
         <P>Damian and Dave also felt that they struggled to find the best photos of their friends from the nights out, holidays and parties.&nbsp; They used apps like Facebook and Dropbox, but it was a chore to get everyone to share photos in the same place and organising them was a pain.</P>
         <P>Damian explains, “I got really frustrated at not being able to see all the photos my friends and I had taken in one place.&nbsp; I couldn’t be bothered sorting through photos and would never get round to organising them into albums.”</P>
@@ -81,8 +70,7 @@ const About = (props) => (
         </TeamDiv>
 
       </div>
-
-    </div>
+  
   </div>
 );
 
