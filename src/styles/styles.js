@@ -22,6 +22,11 @@ export const LogoName = styled.img`
 
 `;
 
+export const MainDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
 export const LogoWrapper = styled.div`
   display: flex;
   flex-direction: row;
@@ -143,7 +148,7 @@ export const Title = styled.h1`
 export const H2 = styled.h2`
   font-family: ${fonts.default};
   text-align: center;
-  color: ${colours.blue};
+  color: ${colours.what};
   font-size: 24px;
   line-height: 31px;
   letter-spacing: .04px;
@@ -233,11 +238,17 @@ export const NavButton = styled.button`
   font-size: 1em;
   font-weight: ${fonts.thin};
   text-align: center;
-  color: ${colours.blue};
+  color: ${colours.where};
   background: ${colours.offWhite};
   border: none;
   text-decoration: none;
   padding: 14px 16px;
+  button:focus {outline:0;};
+`;
+
+export const NavButton2 = NavButton.extend`
+  color: ${colours.where};
+  background: ${colours.transparent};
 `;
 
 export const NavLabel = styled.label`
@@ -257,6 +268,14 @@ export const NavbarWrapper = styled.section`
 
 `;
 
+export const NavbarWrapper2 = NavbarWrapper.extend`
+  display: inline;
+  padding: 0;
+  margin: 0;
+  background: ${colours.verylightgray};
+
+`;
+
 export const FooterWrapper = styled.section`
   padding: 1.2em;
   background: ${colours.offWhite};
@@ -270,7 +289,7 @@ export const BurgerStyles = {
     height: '30px'
   },
   bmBurgerBars: {
-    background: colours.blue
+    background: colours.what
   },
   bmCrossButton: {
     height: '24px',

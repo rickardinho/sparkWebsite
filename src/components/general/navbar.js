@@ -17,7 +17,7 @@ const Navbar = () => {
               </LogoWrapper>
 
               <NavButtonWrapper>
-                <Link to="/">
+                <Link to='/'>
                     <NavButton>
 
                         <NavLabel>Home</NavLabel>
@@ -25,35 +25,35 @@ const Navbar = () => {
                 </Link>
 
 
-                <Link to="/about">
+                <Link to='/about'>
                     <NavButton>
 
                         <NavLabel>About</NavLabel>
                     </NavButton>
                 </Link>
 
-                <Link to="download">
+                <Link to='/download'>
                     <NavButton>
 
                         <NavLabel>Download</NavLabel>
                     </NavButton>
                 </Link>
 
-                <Link to="help">
+                <Link to='/help'>
                     <NavButton>
 
                         <NavLabel>Help</NavLabel>
                     </NavButton>
                 </Link>
 
-                <Link to="press">
+                <Link to='/press'>
                     <NavButton>
 
                         <NavLabel>Press</NavLabel>
                     </NavButton>
                 </Link>
 
-                <Link to="contact">
+                <Link to='/contact'>
                     <NavButton>
 
                         <NavLabel>Contact</NavLabel>

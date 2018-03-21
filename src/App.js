@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import logo from './logo.svg';
 import './App.css';
 import Home from './components/home.js';
 import About from './components/about.js';
+import Hist from './components/history.js';
 import Download from './components/download.js';
 import Help from './components/help.js';
 import Faq from './components/faq.js';
@@ -22,26 +23,23 @@ const Routes = () => {
 
   return (
 
-
-
     <Router>
       <div>
         <Navbar />
-  
-        <Route exact path="/" component={ Home } />
-        <Route path='/about' component={ About } >
-           <Route path='/why' component={ Why } />
-        </Route>
-        <Route path='/download' component={ Download } />
-        <Route path='/help' component={ Help }>
+
+        <Switch>
+
+          <Route exact path="/" component={ Home } />
+          <Route path='/about' component={ About } />
+          <Route path='/download' component={ Download } />
+          <Route path='/help' component={ Help } />
+          <Route path='/press' component={ Press } />
+          <Route path='/contact' component={ Contact } />
+          <Route path='/terms' component={ Terms } />
+          <Route path='/privacy' component={ Privacy } />
           <Route path='/faq' component={ Faq } />
-           <Route path='/how' component={ How } />
-        </Route>
-        <Route path='/press' component={ Press } />
-        <Route path='/contact' component={ Contact } />
-        <Route path='/terms' component={ Terms } />
-        <Route path='/privacy' component={ Privacy } />
-        <Route path='/faq' component={ Faq } />
+
+        </Switch>
 
         <Footer />
 
