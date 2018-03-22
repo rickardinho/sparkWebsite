@@ -58,13 +58,69 @@ export const SocialDiv = styled.div`
 
 `;
 
-export const DownloadDiv = styled.div`
+export const DownloadMain = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+`;
+
+export const DownloadDiv = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: ${colours.offWhite};
+
+  @media (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+  }
+`;
+
+export const DownloadDiv2 = styled.div`
+  height: 150px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-content: center;
+
+`;
+
+export const DownloadDiv3 = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  align-content: center;
+  margin: auto;
+
+`;
+
+export const Img = styled.img`
+
+  box-sizing: border-box;
+  padding: 0;
+  width: 100%;
+  margin: auto;
+
+`;
+export const ImgAppStore = styled.img`
+
+  box-sizing: border-box;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  width: 105%;
+  padding: 0;
+  justify-content: center;
+  align-self: center;
+  margin-horizontal: auto;
 
 `;
 
@@ -163,7 +219,6 @@ export const H3 = styled.h3`
   font-size: 18px;
   line-height: 22px;
   font-weight: 500;
-
 
 `;
 
