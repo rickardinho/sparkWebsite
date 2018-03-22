@@ -1,10 +1,11 @@
 import React from 'react';
 import AppStoreIcon from './../../images/icons/download-on-the-app-store.svg';
+import { ImgAppStore } from './../../styles/styles';
 
 const AppStore = () => {
 
     return (
-        <a href=''><img alt='Get it on the App Store' src={AppStoreIcon} height="50" /></a>
+        <a href=''><ImgAppStore alt='Get it on the App Store' src={AppStoreIcon} /></a>
     );
 };
 

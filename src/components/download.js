@@ -1,20 +1,46 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { H2, H3, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
-
+import { MainDiv, H2, H3, NavbarWrapper2, BulletWrapper, ImageDiv, SocialDiv, DownloadMain, DownloadDiv, DownloadDiv2, DownloadDiv3, SocialButton, BulletDiv } from './../styles/styles';
+import GooglePlay from './general/google-play.js';
+import AppStore from './general/app-store.js';
 
 const Home = () => (
-  <div>
-    <div className="Home">
-      <div className="Home-header">
-        <H2>Welcome to Spark Website</H2>
-      </div>
-      <p className="Home-intro">
-        To get started, blah blah.
-      </p>
-    </div>
-    
-  </div>
+  <MainDiv>
+
+    <NavbarWrapper2>
+
+      <H3>Download Spark</H3>
+
+    </NavbarWrapper2>
+
+
+    <DownloadMain>
+      <DownloadDiv>
+
+        <DownloadDiv2>
+
+          <H3>Android</H3>
+          <DownloadDiv3>
+            <GooglePlay />
+          </DownloadDiv3>
+
+        </DownloadDiv2>
+
+
+        <DownloadDiv2>
+
+          <H3>iPhone</H3>
+          <DownloadDiv3>
+            <AppStore />
+          </DownloadDiv3>
+
+        </DownloadDiv2>
+
+      </DownloadDiv>
+    </DownloadMain>
+
+  </MainDiv>
+
 );
 
 export default Home;

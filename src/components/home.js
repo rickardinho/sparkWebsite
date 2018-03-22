@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { NavButton, NavbarWrapper, H2, H3, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
+import { NavButton, NavbarWrapper, H2, H3, BulletWrapper, ImageDiv, SocialDiv, DownloadMain, DownloadDiv, DownloadDiv2, DownloadDiv3, SocialButton, BulletDiv } from './../styles/styles';
 import GooglePlay from './general/google-play.js';
 import AppStore from './general/app-store.js';
 import sparkMainImage from './../images/homemainpictcut.jpg';
@@ -28,11 +28,30 @@ const Home = () => (
 
       <H2>Spark is a FREE mobile app that makes organising social events and sharing photos easy.</H2>
 
-      <DownloadDiv>
-        <div><GooglePlay /></div>
-        <div style={{ width: '50px' }}></div>
-        <div><AppStore /></div>
-      </DownloadDiv>
+      <DownloadMain>
+        <DownloadDiv>
+
+          <DownloadDiv2>
+
+            <H3>Android</H3>
+            <DownloadDiv3>
+              <GooglePlay />
+            </DownloadDiv3>
+
+          </DownloadDiv2>
+
+
+          <DownloadDiv2>
+
+            <H3>iPhone</H3>
+            <DownloadDiv3>
+              <AppStore />
+            </DownloadDiv3>
+
+          </DownloadDiv2>
+
+        </DownloadDiv>
+      </DownloadMain>
 
       <BulletWrapper>
         <BulletDiv>

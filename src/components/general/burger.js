@@ -5,11 +5,37 @@ import { NavButton, NavLabel, NavbarWrapper, BurgerStyles } from './../../styles
 
 class BurgerMenu extends Component {
 
+  constructor (props) {
+    super(props)
+    this.state = {
+      menuOpen: false
+    }
+  }
+
+  handleStateChange (state) {
+    this.setState({menuOpen: state.isOpen})
+  }
+
+  closeMenu () {
+    this.setState({menuOpen: false})
+  }
+
+  toggleMenu () {
+    this.setState({menuOpen: !this.state.menuOpen})
+  }
+
   render () {
     return (
-      <Menu styles={ BurgerStyles } id={ "sidebar" } className={ "burger-menu" } right>
-        
-        <Link to="/">
+      <Menu
+          isOpen={this.state.menuOpen}
+          onStateChange={(state) => this.handleStateChange(state)}
+          styles={ BurgerStyles }
+          id={ "sidebar" }
+          className={ "burger-menu" }
+          right
+      >
+
+        <Link to='/' onClick={() => this.closeMenu()}>
             <NavButton>
 
                 <NavLabel>Home</NavLabel>
@@ -17,35 +43,35 @@ class BurgerMenu extends Component {
         </Link>
 
 
-        <Link to="/about">
+        <Link to='/about' onClick={() => this.closeMenu()}>
             <NavButton>
 
                 <NavLabel>About</NavLabel>
             </NavButton>
         </Link>
 
-        <Link to="download">
+        <Link to='/download' onClick={() => this.closeMenu()}>
             <NavButton>
 
                 <NavLabel>Download</NavLabel>
             </NavButton>
         </Link>
 
-        <Link to="help">
+        <Link to='/help' onClick={() => this.closeMenu()}>
             <NavButton>
 
                 <NavLabel>Help</NavLabel>
             </NavButton>
         </Link>
 
-        <Link to="press">
+        <Link to='/press' onClick={() => this.closeMenu()}>
             <NavButton>
 
                 <NavLabel>Press</NavLabel>
             </NavButton>
         </Link>
 
-        <Link to="contact">
+        <Link to='/contact' onClick={() => this.closeMenu()}>
             <NavButton>
 
                 <NavLabel>Contact</NavLabel>
