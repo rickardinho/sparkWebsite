@@ -18,36 +18,12 @@ const Terms = () => (
 
 export default Terms;
 
-// <title>Terms and Conditions</title>
-// <!-- CSS -->
-// <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=125060978"/>
-// <link rel="stylesheet" type="text/css" href="css/master_b-master.css?crc=178930323"/>
-// <link rel="stylesheet" type="text/css" href="css/terms-and-conditions.css?crc=4042396304" id="pagesheet"/>
-// <!-- IE-only CSS -->
-// <!--[if lt IE 9]>
-// <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_b-master.css?crc=3840341236"/>
-// <link rel="stylesheet" type="text/css" href="css/nomq_terms-and-conditions.css?crc=181282872" id="nomq_pagesheet"/>
-// <![endif]-->
-//  </head>
-// <body>
-//
-// <div class="breakpoint active" id="bp_infinity" data-min-width="1025"><!-- responsive breakpoint node -->
-//  <div class="clearfix borderbox" id="page"><!-- group -->
-//   <div class="clip_frame grpelem" id="u51640"><!-- image -->
-//    <img class="block temp_no_img_src" id="u51640_img" data-orig-src="images/spark_with_icon.png?crc=62710494" alt="" width="336" height="83" src="images/blank.gif?crc=4208392903"/>
-//   </div>
-//   <div class="clearfix grpelem shared_content" id="u64823" data-content-guid="u64823_content"><!-- group -->
-//    <div class="grpelem shared_content" id="u64811" data-content-guid="u64811_content"><!-- simple frame --></div>
-//   </div>
-//   <!-- m_editable region-id="editable-static-tag-U62156-BP_infinity" template="terms-and-conditions.html" data-type="html" data-ice-options="disableImageResize,link" -->
-//   <div class="clearfix grpelem shared_content" id="u62156-461" data-muse-uid="U62156" data-muse-type="txt_frame" data-content-guid="u62156-461_content"><!-- content -->
-//    <h4 class="titles" id="u62156-2">Spark Terms &amp; Conditions</h4>
-//    <h2 id="u62156-3">&nbsp;</h2>
-//    <p class="Paragraph-text" id="u62156-5">The following sets out the terms and conditions for use of the Spark website, application and our services.</p>
-//    <p class="Paragraph-text" id="u62156-6">&nbsp;</p>
-//    <p class="Paragraph-text" id="u62156-42">Introduction<br/>The basics<br/>Access to the App<br/>Registering a Spark account<br/>What you are allowed to do<br/>What you are not allowed to do<br/>Intellectual property rights<br/>Review forums<br/>External links<br/>Your personal information<br/>Our service standards<br/>Our liability<br/>Suspension &amp; termination<br/>General<br/>Dispute Resolution<br/>Additional Terms Relating to Apple<br/>Definitions<br/>Contact us</p>
-//    <p id="u62156-43">&nbsp;</p>
-//    <h4 class="titles" id="u62156-49"><span id="u62156-44">1. Introduction</span><span id="u62156-45"> </span><span id="u62156-48"><br/><br/></span></h4>
+<H3>Terms and Conditions</H3>
+
+<P>The following sets out the terms and conditions for use of the Spark website, application and our services.</P>
+<P>Introduction<br/>The basics<br/>Access to the App<br/>Registering a Spark account<br/>What you are allowed to do<br/>What you are not allowed to do<br/>Intellectual property rights<br/>Review forums<br/>External links<br/>Your personal information<br/>Our service standards<br/>Our liability<br/>Suspension &amp; termination<br/>General<br/>Dispute Resolution<br/>Additional Terms Relating to Apple<br/>Definitions<br/>Contact us</p>
+
+<H4>1. Introduction</span><span id="u62156-45"> </span><span id="u62156-48"><br/><br/></span></H4>
 //    <p class="Paragraph-text" id="u62156-63">1.1 These are the terms of use, including the terms and conditions of supply (Terms), for www.spark-app.net, app.spark-app.net and the Spark application. For the purposes of these Terms, both the website and application shall be referred to as the &quot;App&quot;. The App is operated by Wanna Enterprises Ltd trading as Spark (we, us and our). We are a limited company, registered in England. Our registered company number is 7934000, and our registered office is at 1 Neptune House, Moodkee St, London, UK, SE16 7AU. Our VAT registration number is 138597273.<br/><br/>1.2 Your use of the App and your Purchase of any of the Products offered via our App is subject to these Terms and by logging in to our App you agree to be bound by them. You should print a copy of these Terms for future reference. Use of your personal information submitted via this App is governed by our privacy policy.<br/><br/>1.3 We reserve the right to change these Terms from time to time by changing them on the App, although no such change will affect any Purchase you have already made with us. Your continued use of the App and any new Purchases will be bound by the new Terms. These Terms were last updated on July 12, 2016.<br/><br/>1.4 As a consumer, nothing in these Terms will prevent you or stop you from being able to enforce or receive the full benefit of your legal rights provided under general UK law (your &quot;non-excludable statutory rights&quot;). For more information, please contact your local Citizens Advice Bureau, phone numbers can be found on their national website at www.nacab.org.uk.<br/><br/>1.5 In these Terms we use various capitalised terms (they are &quot;defined&quot;). This means they have special meanings, found in the next-to-last section of these Terms.</p>
 //    <p id="u62156-64">&nbsp;</p>
 //    <h4 class="titles" id="u62156-69"><span id="u62156-65">2. The basics</span><span id="u62156-68"><br/><br/></span></h4>
