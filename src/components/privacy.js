@@ -1,13 +1,14 @@
-<P>import React from 'react';
+import React from 'react';
 import { render } from 'react-dom';
-import { H2, H3, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
+import { H2, H3, H4, P, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
 
 
-const Home = () => (
+const Privacy = () => (
   <div>
     <div className="Home">
       <div className="Home-header">
-        <H2>Our Privacy Policy</H2>
+        <H3>Our Privacy Policy</H3>
+        <P>&nbsp;</P>
       </div>
 
       <div>
@@ -92,6 +93,7 @@ const Home = () => (
     </div>
 
   </div>
+
 );
 
-export default Home;
+export default Privacy;
