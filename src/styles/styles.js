@@ -27,6 +27,14 @@ export const MainDiv = styled.div`
   flex-direction: column;
 `;
 
+export const BurgerDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background: ${colours.offWhite};
+  height: 100%;
+`;
+
 export const LogoWrapper = styled.div`
   display: flex;
   flex-direction: row;
