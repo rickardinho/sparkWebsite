@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import FontAwesome from 'react-fontawesome';
-import BurgerMenu from './burger.js';
 import SlidingBurgerMenu from './sliding-burger.js';
 import { NavButton, NavLabel, NavbarWrapper, NavButtonWrapper, Logo, LogoName, LogoWrapper, BurgerWrapper } from './../../styles/styles';
 import sparkIcon from './../../images/icons/sparkLogo.png';
