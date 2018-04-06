@@ -13,7 +13,7 @@ const Contact = () => (
       <div>
 
         <H4>Keep in touch!</H4>
-        <CenteredP>If you’d like to know more about Spark, would like to be involved in our project, or just want to say hello, please email us:</CenteredP>
+        <CenteredP>{`If you’d like to know more about Spark, would like to be involved in our project, or just want to say hello, please email us:`}</CenteredP>
         <CenteredP><a href="mailto:hello@spark-app.net">hello@spark-app.net</a></CenteredP>
         <CenteredP>Or join us on:</CenteredP>
 
