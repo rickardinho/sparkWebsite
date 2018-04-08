@@ -11,10 +11,14 @@ import colours from './../../styles/colours';
 const BurgerIcon = ({onBurgerClick}) => {
 
   return (
-    <span>
+    <div style={{
+      color: colours.gray,
+      borderStyle: 'solid',
+      borderColor: 'red'
+    }}>
       {<a onClick={onBurgerClick}><FontAwesome name='bars' size='2x'
         style={{ color: colours.gray, textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }} /></a>}
-    </span>
+    </div>
   );
 
 };
