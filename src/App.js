@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import Sidebar from 'react-sidebar';
-import logo from './logo.svg';
 import './App.css';
 import Home from './components/home.js';
 import About from './components/about.js';
-import Hist from './components/history.js';
 import Download from './components/download.js';
 import Help from './components/help.js';
 import Faq from './components/faq.js';
-import How from './components/how.js';
-import Why from './components/why.js';
 import Press from './components/press.js';
 import Contact from './components/contact.js';
 import Terms from './components/terms.js';
@@ -43,7 +39,7 @@ class Routes extends Component {
 
   render () {
 
-    const sidebarContent = <SlidingBurgerContent />
+    const sidebarContent = <SlidingBurgerContent onBurgerClick={this.onBurgerClick} />
 
     return (
 
@@ -52,6 +48,7 @@ class Routes extends Component {
              open={this.state.sidebarOpen}
              onSetOpen={this.onSetSidebarOpen}
              pullRight
+             shadow
         >
 
           <div>

@@ -1,7 +1,6 @@
 import React from 'react';
-import { render } from 'react-dom';
 import { Link, Route } from 'react-router-dom';
-import { MainDiv, H2, H3, H4, NavButton, NavButton2, NavLabel, NavbarWrapper, NavbarWrapper2, NavButtonWrapper, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
+import { MainDiv, H3, NavButton2, NavLabel, NavbarWrapper2 } from './../styles/styles';
 import Faq from './faq.js';
 import How from './how.js';
 
