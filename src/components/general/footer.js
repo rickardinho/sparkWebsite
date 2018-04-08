@@ -1,5 +1,4 @@
 import React from 'react';
-import { render } from 'react-dom';
 import { Link } from 'react-router-dom';
 import { FooterLink, FooterText, FooterWrapper, SocialDiv, SocialButton } from './../../styles/styles';
 import twitterImage from './../../images/twitter.jpg';

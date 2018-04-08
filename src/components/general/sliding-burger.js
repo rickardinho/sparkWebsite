@@ -1,17 +1,16 @@
-import React, { Component } from 'react';
-import { slide as Menu } from 'react-burger-menu'
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { NavButton, NavLabel, NavbarWrapper, BurgerDiv } from './../../styles/styles';
-
-import Sidebar from 'react-sidebar';
+import { NavButton, NavLabel, BurgerDiv } from './../../styles/styles';
 
 
-const SlidingBurgerContent = () => (
+const SlidingBurgerContent = ({onBurgerClick}) => (
 
-      <BurgerDiv>
-        <NavButton>
+      <BurgerDiv onClick={() => onBurgerClick()}>
+        <div>
+          <NavButton>
 
-        </NavButton>
+          </NavButton>
+        </div>
 
         <Link to='/' onClick={() => this.closeMenu()}>
             <NavButton>

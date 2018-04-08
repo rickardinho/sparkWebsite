@@ -1,6 +1,5 @@
 import React from 'react';
-import { render } from 'react-dom';
-import { NavButton, NavbarWrapper, H2, H3, BulletWrapper, ImageDiv, SocialDiv, DownloadMain, DownloadDiv, DownloadDiv2, DownloadDiv3, SocialButton, BulletDiv } from './../styles/styles';
+import { H2, H3, BulletWrapper, ImageDiv, DownloadMain, DownloadDiv, DownloadDiv2, DownloadDiv3, BulletDiv } from './../styles/styles';
 import GooglePlay from './general/google-play.js';
 import AppStore from './general/app-store.js';
 import sparkMainImage from './../images/homemainpictcut.jpg';
@@ -11,7 +10,6 @@ import saveImage from './../images/save.png';
 import album from './../images/3album.jpg';
 import resultVote from './../images/2-result-vote.jpg';
 import message from './../images/1-message.jpg';
-import Footer from './general/footer.js';
 import Carousel from './general/carousel.js';
 
 const Home = () => (

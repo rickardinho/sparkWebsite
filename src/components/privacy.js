@@ -1,7 +1,5 @@
 import React from 'react';
-import { render } from 'react-dom';
-import { H2, H3, H4, P, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
-
+import { H3, H4, P } from './../styles/styles';
 
 const Privacy = () => (
   <div>

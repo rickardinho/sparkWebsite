@@ -40,6 +40,9 @@ export const LogoWrapper = styled.div`
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
+  border-color: 'red';
+  border-style: 'solid';
+  border-width: 1px;
 
 `;
 

@@ -1,9 +1,6 @@
 import React from 'react';
-import { render } from 'react-dom';
 import { Link, Route, Switch } from 'react-router-dom';
-import { MainDiv, H2, H3, H4, P, NavbarWrapper2, NavButton, NavButton2, NavLabel, TeamDiv, TeamMemberDiv, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
-import Dave from './../images/dave.jpg';
-import Damian from './../images/damian.jpg';
+import { MainDiv, H3, NavbarWrapper2, NavButton2, NavLabel } from './../styles/styles';
 import Why from './why.js';
 import Hist from './history.js';
 

@@ -1,6 +1,5 @@
 import React from 'react';
-import { render } from 'react-dom';
-import { MainDiv, H2, H3, NavbarWrapper2, BulletWrapper, ImageDiv, SocialDiv, DownloadMain, DownloadDiv, DownloadDiv2, DownloadDiv3, SocialButton, BulletDiv } from './../styles/styles';
+import { MainDiv, H3, NavbarWrapper2, DownloadMain, DownloadDiv, DownloadDiv2, DownloadDiv3 } from './../styles/styles';
 import GooglePlay from './general/google-play.js';
 import AppStore from './general/app-store.js';
 

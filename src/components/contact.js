@@ -1,6 +1,5 @@
 import React from 'react';
-import { render } from 'react-dom';
-import { CenteredP, H2, H3, H4, P, BulletWrapper, ImageDiv, SocialDiv, DownloadDiv, SocialButton, BulletDiv } from './../styles/styles';
+import { CenteredP, H2, H4 } from './../styles/styles';
 
 
 const Contact = () => (
