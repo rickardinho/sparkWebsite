@@ -38,10 +38,10 @@ const Navbar = ({onBurgerClick}) => {
                 </Link>
 
 
-                <Link to='/about'>
+                <Link to='/why'>
                     <NavButton>
 
-                        <NavLabel>About</NavLabel>
+                        <NavLabel>Why</NavLabel>
                     </NavButton>
                 </Link>
 
@@ -52,7 +52,7 @@ const Navbar = ({onBurgerClick}) => {
                     </NavButton>
                 </Link>
 
-                <Link to='/help'>
+                <Link to='/how'>
                     <NavButton>
 
                         <NavLabel>Help</NavLabel>

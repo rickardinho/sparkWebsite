@@ -20,10 +20,10 @@ const SlidingBurgerContent = ({onBurgerClick}) => (
         </Link>
 
 
-        <Link to='/about' onClick={() => this.closeMenu()}>
+        <Link to='/why' onClick={() => this.closeMenu()}>
             <NavButton>
 
-                <NavLabel>About</NavLabel>
+                <NavLabel>Why</NavLabel>
             </NavButton>
         </Link>
 
@@ -34,10 +34,24 @@ const SlidingBurgerContent = ({onBurgerClick}) => (
             </NavButton>
         </Link>
 
-        <Link to='/help' onClick={() => this.closeMenu()}>
+        <Link to='/how' onClick={() => this.closeMenu()}>
             <NavButton>
 
                 <NavLabel>Help</NavLabel>
+            </NavButton>
+        </Link>
+
+        <Link to='/faq' onClick={() => this.closeMenu()}>
+            <NavButton>
+
+                <NavLabel>FAQ</NavLabel>
+            </NavButton>
+        </Link>
+
+        <Link to='/history' onClick={() => this.closeMenu()}>
+            <NavButton>
+
+                <NavLabel>History</NavLabel>
             </NavButton>
         </Link>
 

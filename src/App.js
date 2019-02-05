@@ -10,6 +10,9 @@ import Help from './components/help.js';
 import Faq from './components/faq.js';
 import Press from './components/press.js';
 import Contact from './components/contact.js';
+import Why from './components/why.js';
+import How from './components/how.js';
+import Hist from './components/history.js';
 import Terms from './components/terms.js';
 import Privacy from './components/privacy.js';
 import Navbar from './components/general/navbar.js';
@@ -66,6 +69,9 @@ class Routes extends Component {
               <Route path='/terms' component={ Terms } />
               <Route path='/privacy' component={ Privacy } />
               <Route path='/faq' component={ Faq } />
+              <Route path='/why' component={Why} />
+              <Route path='/how' component={How} />
+              <Route path='/history' component={Hist} />
 
             </Switch>
 
